@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Data Deletion — MukGo</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#1A1F2E;
+    --navy-soft:#253048;
+    --orange:#E8521A;
+    --cream:#F7F5F0;
+    --gray:#5B6478;
+    --line:#E3E0D8;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--navy);line-height:1.7;font-size:16px}
+  .topbar{background:var(--navy);color:#fff;padding:40px 24px 36px}
+  .topbar .inner{max-width:760px;margin:0 auto}
+  .logo{font-family:'Syne',sans-serif;font-weight:800;font-size:28px;letter-spacing:-0.5px}
+  .logo span{color:var(--orange)}
+  .topbar h1{font-family:'Syne',sans-serif;font-weight:700;font-size:32px;margin-top:14px;letter-spacing:-0.5px}
+  .topbar p{color:#B9C0D0;margin-top:8px;font-size:14px}
+  .wrap{max-width:760px;margin:0 auto;padding:44px 24px 80px}
+  h2{font-family:'Syne',sans-serif;font-weight:700;font-size:21px;margin:36px 0 12px}
+  p{margin:0 0 14px}
+  ul,ol{margin:0 0 16px 22px}
+  li{margin-bottom:8px}
+  a{color:var(--orange);font-weight:500}
+  .card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px 24px;margin:18px 0}
+  .steps{counter-reset:s;list-style:none;margin-left:0}
+  .steps li{position:relative;padding-left:44px;margin-bottom:16px}
+  .steps li::before{counter-increment:s;content:counter(s);position:absolute;left:0;top:-2px;width:30px;height:30px;
+    background:var(--orange);color:#fff;border-radius:50%;display:grid;place-items:center;font-weight:700;font-family:'Syne',sans-serif}
+  table{width:100%;border-collapse:collapse;margin:8px 0 16px}
+  th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);font-size:15px;vertical-align:top}
+  th{font-family:'Syne',sans-serif;color:var(--navy)}
+  .muted{color:var(--gray);font-size:14px}
+  .mail{font-weight:700}
+</style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="inner">
+      <div class="logo">Muk<span>Go</span></div>
+      <h1>Data Deletion Request</h1>
+      <p>How to delete your MukGo account data — with or without deleting your account</p>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <p>This page explains how users of the <strong>MukGo</strong> mobile application can request deletion of the personal data MukGo has collected. You can delete your data at any time, and you do <strong>not</strong> need to delete your account to remove specific data.</p>
+
+    <h2>Option 1 — Delete in the app</h2>
+    <div class="card">
+      <p>If you created a MukGo account, open the app and go to <strong>Account → Delete account</strong>. This permanently removes your account and all data tied to it (see the table below).</p>
+    </div>
+
+    <h2>Option 2 — Request deletion by email</h2>
+    <p>To delete some or all of your data — including if you joined the waitlist but never created an account — send us a request:</p>
+    <ol class="steps">
+      <li>Email <a class="mail" href="mailto:privacy@alpspira.com?subject=MukGo%20Data%20Deletion%20Request">privacy@alpspira.com</a> with the subject <strong>"MukGo Data Deletion Request."</strong></li>
+      <li>Include the <strong>email address</strong> you used with MukGo (or the waitlist), so we can locate your data.</li>
+      <li>Tell us whether you want <strong>all</strong> of your data deleted, or only specific items (for example, only your gas-station ratings).</li>
+    </ol>
+    <p class="muted">We verify the request comes from the email owner and complete deletion within <strong>30 days</strong>. We'll confirm by email when it's done.</p>
+
+    <h2>What is deleted and what is kept</h2>
+    <table>
+      <tr><th>Data</th><th>On deletion</th></tr>
+      <tr><td>Account &amp; email address</td><td>Deleted</td></tr>
+      <tr><td>Profile (display name, favorite cuisines)</td><td>Deleted</td></tr>
+      <tr><td>Your gas-station cleanliness ratings &amp; comments</td><td>Deleted</td></tr>
+      <tr><td>Waitlist email</td><td>Deleted</td></tr>
+      <tr><td>Location data</td><td>Never stored — used only in-session to find nearby places, so there is nothing to delete</td></tr>
+    </table>
+    <p class="muted">MukGo does not sell or share personal data with third parties. Once deleted, data cannot be recovered.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about data deletion or privacy: <a class="mail" href="mailto:privacy@alpspira.com">privacy@alpspira.com</a></p>
+    <p class="muted">See also our <a href="MukGo-Privacy-Policy.html">Privacy Policy</a>.</p>
+  </div>
+</body>
+</html>
