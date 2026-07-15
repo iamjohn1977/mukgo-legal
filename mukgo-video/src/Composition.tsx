@@ -1,4 +1,5 @@
-import { Composition } from "remotion";
+import { AbsoluteFill, Composition, staticFile } from "remotion";
+import { Audio } from "@remotion/media";
 import { linearTiming, TransitionSeries } from "@remotion/transitions";
 import { fade } from "@remotion/transitions/fade";
 import { LogoScene } from "./LogoScene";
@@ -12,25 +13,28 @@ const TRANSITION = 22;
 
 export const MyComponent: React.FC = () => {
   return (
-    <TransitionSeries>
-      <TransitionSeries.Sequence durationInFrames={LOGO_DURATION}>
-        <LogoScene />
-      </TransitionSeries.Sequence>
-      <TransitionSeries.Transition
-        timing={linearTiming({ durationInFrames: TRANSITION })}
-        presentation={fade()}
-      />
-      <TransitionSeries.Sequence durationInFrames={DEMO_DURATION}>
-        <DemoScene />
-      </TransitionSeries.Sequence>
-      <TransitionSeries.Transition
-        timing={linearTiming({ durationInFrames: TRANSITION })}
-        presentation={fade()}
-      />
-      <TransitionSeries.Sequence durationInFrames={MODES_DURATION}>
-        <ModesScene />
-      </TransitionSeries.Sequence>
-    </TransitionSeries>
+    <AbsoluteFill>
+      <Audio src={staticFile("bgm.wav")} volume={0.7} />
+      <TransitionSeries>
+        <TransitionSeries.Sequence durationInFrames={LOGO_DURATION}>
+          <LogoScene />
+        </TransitionSeries.Sequence>
+        <TransitionSeries.Transition
+          timing={linearTiming({ durationInFrames: TRANSITION })}
+          presentation={fade()}
+        />
+        <TransitionSeries.Sequence durationInFrames={DEMO_DURATION}>
+          <DemoScene />
+        </TransitionSeries.Sequence>
+        <TransitionSeries.Transition
+          timing={linearTiming({ durationInFrames: TRANSITION })}
+          presentation={fade()}
+        />
+        <TransitionSeries.Sequence durationInFrames={MODES_DURATION}>
+          <ModesScene />
+        </TransitionSeries.Sequence>
+      </TransitionSeries>
+    </AbsoluteFill>
   );
 };
 
