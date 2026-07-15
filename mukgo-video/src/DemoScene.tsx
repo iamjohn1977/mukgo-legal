@@ -441,7 +441,7 @@ const BottomSheet: React.FC<{ t: DemoCopy }> = ({ t }) => {
   );
 };
 
-const PhoneMockup: React.FC<{ t: DemoCopy }> = ({ t }) => {
+export const PhoneMockup: React.FC<{ t: DemoCopy }> = ({ t }) => {
   const frame = useCurrentFrame();
   const enter = interpolate(frame, [0, 26], [0, 1], {
     extrapolateLeft: "clamp",

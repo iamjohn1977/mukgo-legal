@@ -64,6 +64,17 @@ type SceneCopy = {
     cta: string;
     cta2: string;
   };
+  social: {
+    hookA: string;
+    hookB: string;
+    hookPunch: string;
+    brandTag: string;
+    values: { emoji: string; text: string }[];
+    valueStrip: string;
+    ctaTitle: string;
+    ctaSub: string;
+    ctaBadge: string;
+  };
 };
 
 export const COPY: Record<Lang, SceneCopy> = {
@@ -180,6 +191,21 @@ export const COPY: Record<Lang, SceneCopy> = {
       cta: "운전 모드 시작",
       cta2: "LIVE PREVIEW · MEETUP →",
     },
+    social: {
+      hookA: "휴게소 화장실,",
+      hookB: "15%만 '괜찮다'",
+      hookPunch: "그런데 이 정보, 어디에도 없었다",
+      brandTag: "Drive · Eat · Go",
+      values: [
+        { emoji: "🍔", text: "경로 앞 맛집 5곳 자동 추천" },
+        { emoji: "⛽", text: "전방 주유소 + 실시간 유가" },
+        { emoji: "🚻", text: "운전자가 매긴 화장실 청결도" },
+      ],
+      valueStrip: "CLEAN · SAFE · FRESH · TASTY",
+      ctaTitle: "지금, 무료로",
+      ctaSub: "운전하면서, 모임에서도 — 한 눈에 맛집",
+      ctaBadge: "Google Play 오픈 테스트 · 5개 언어",
+    },
   },
   en: {
     drive: {
@@ -293,6 +319,21 @@ export const COPY: Record<Lang, SceneCopy> = {
       meetupSub: "Together · destination · ETA",
       cta: "Start driving mode",
       cta2: "LIVE PREVIEW · MEETUP →",
+    },
+    social: {
+      hookA: "Gas-station restrooms:",
+      hookB: "only 15% are OK.",
+      hookPunch: "And it's on no map. Nowhere.",
+      brandTag: "Drive · Eat · Go",
+      values: [
+        { emoji: "🍔", text: "5 food picks ahead on your route" },
+        { emoji: "⛽", text: "Gas ahead + live fuel prices" },
+        { emoji: "🚻", text: "Driver-rated restroom cleanliness" },
+      ],
+      valueStrip: "CLEAN · SAFE · FRESH · TASTY",
+      ctaTitle: "Get it free",
+      ctaSub: "Great food while you drive — and when you meet up",
+      ctaBadge: "Google Play open testing · 5 languages",
     },
   },
 };
