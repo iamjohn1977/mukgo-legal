@@ -51,7 +51,7 @@
 7. ★★★★☆ Taste learning → future Decision AI.
 8. ★★★★☆ Community-built trust ("be the first to rate").
 **Why it's better:** Lower cognitive load, no U-turns, peace of mind about hygiene, less group friction.
-**The Moat (built over time, not owned today):** A personal decision/memory graph. *"Google remembers places. MukGo remembers you."* Cleanliness data compounds via network effect (more users → more data → more useful); Google can copy a feature in a week but cannot copy years of accumulated personal decision history + trust graph.
+**The Moat (built over time, not owned today):** A personal decision/memory graph. Canonical line: *"Google remembers places. MukGo remembers you — your experiences, your regrets, your favorite stops."* (short form: "…MukGo remembers you.") Cleanliness data compounds via network effect (more users → more data → more useful); Google can copy a feature in a week but cannot copy years of accumulated personal decision history + trust graph.
 
 ## Objections
 | Objection | Response |
