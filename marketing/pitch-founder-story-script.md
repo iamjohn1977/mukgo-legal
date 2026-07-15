@@ -16,6 +16,8 @@ Slide 1  Title (MukGo · Drive · Eat · Go)
   WHY-2  Four small frustrations
   WHY-3  The realization (search vs decide)
   WHY-4  The insight line
+  WHY-4B The Buc-ee's proof (cleanliness is core)
+  WHY-4C Philosophy → North Star ("stop here again?")
   WHY-5  Why me (founder–market fit)
   WHY-6  I refused to accept them → MukGo
 ─────────  ↑ END SECTION ↑
@@ -114,6 +116,64 @@ apps" disarms the obvious objection before anyone raises it.
 
 **DELIVERY NOTE:** Say it, then be quiet for two seconds. Let it land. This is the line you
 want them repeating to their partners after the meeting.
+
+---
+
+## WHY-4B — The Buc-ee's proof (why cleanliness is *core*, not a feature)
+
+**ON SCREEN (large, quotable):**
+> You can learn more about a business
+> from its restroom than from its advertising.
+
+**VISUAL:** One photograph of a pristine Buc-ee's-style restroom / store, then a slow pull to
+a MukGo cleanliness ★ card. Understated — one image, one line. Don't clutter it.
+
+**SCRIPT (≈50 sec):**
+> "Let me make this concrete. If you asked me for the best stop in America, I'd say Buc-ee's,
+> in Texas. I've driven to the ones in Denton, Amarillo, even the new one in Denver.
+>
+> And here's the thing — I don't love it for the cheapest gas or the biggest store. I love it
+> for the restroom. The moment you walk into a Buc-ee's restroom, you think: *this company
+> respects its customers.* Clean restroom, clean store, good food, friendly staff — all of it
+> flows from one philosophy.
+>
+> That's when it clicked. A restroom isn't a facility. It's a window into how a business
+> thinks. Most people see Buc-ee's and think 'big, cheap gas.' The restroom told you
+> everything first.
+>
+> But Buc-ee's is the exception. The problem is the thousands of stops that *don't* tell you
+> which kind they are. So we made cleanliness core information — not a footnote."
+
+**DELIVERY NOTE:** This is your *observation-as-founder* moment — investors are deciding
+whether you see what others miss. Frame Buc-ee's as the **exception that proves the rule**:
+the point isn't that Buc-ee's exists, it's that MukGo finds Buc-ee's-quality stops among the
+thousands that aren't labeled. Bonus: note that people *detour* for a stop like this — that's
+live proof of demand and willingness to pay (ties to the market & B2B slides).
+
+---
+
+## WHY-4C — Philosophy → the North Star
+
+**ON SCREEN:**
+> We don't collect stars. We record trust.
+> _(then, large):_ **"Would you stop here again?"**
+
+**VISUAL:** Six quiet icons — 🍔 food · 🚻 restroom · ✨ clean · 🙂 service · 🛡️ safe · 🅿️ parking —
+resolving into one line. This is the brand-philosophy beat.
+
+**SCRIPT (≈35 sec):**
+> "This reframes what MukGo even is. People aren't really looking for food. They're looking
+> for a place they can *trust* enough to walk into — clean restroom, clean store, friendly
+> staff, fast service, safe parking. Those matter more than a star rating.
+>
+> So the bar for every stop on MukGo is one question: *would you choose to stop here again?*
+> Which is exactly the question my whole story started with — 'why did I come back here
+> again?' — finally answered on purpose."
+
+**DELIVERY NOTE:** "Would you stop here again?" is the North Star. Say it, pause. The word
+"again" is doing double duty — the regret that started the company, and the loyalty that
+builds the moat. That symmetry is worth letting the room feel. Keep "we don't collect stars,
+we record trust" as your quotable brand line.
 
 ---
 
