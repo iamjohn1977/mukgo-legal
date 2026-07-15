@@ -249,7 +249,7 @@ export const ModesScene: React.FC = () => {
               fontWeight: 600,
             }}
           >
-            02 · CHOOSE YOUR MODE
+            04 · TWO MODES, ONE APP
           </div>
           <div
             style={{

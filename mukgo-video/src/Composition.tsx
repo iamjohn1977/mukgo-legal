@@ -2,44 +2,58 @@ import { AbsoluteFill, Composition, staticFile } from "remotion";
 import { Audio } from "@remotion/media";
 import { linearTiming, TransitionSeries } from "@remotion/transitions";
 import { fade } from "@remotion/transitions/fade";
+import { DriveScene } from "./DriveScene";
+import { StopScene } from "./StopScene";
 import { LogoScene } from "./LogoScene";
 import { DemoScene } from "./DemoScene";
+import { PillarsScene } from "./PillarsScene";
+import { MoatScene } from "./MoatScene";
+import { MarketScene } from "./MarketScene";
 import { ModesScene } from "./ModesScene";
 
-const LOGO_DURATION = 120;
-const DEMO_DURATION = 230;
-const MODES_DURATION = 180;
-const TRANSITION = 22;
+const T = 22; // cross-fade duration
+
+// Promo narrative: problem → brand → product → moat → market → CTA
+const SCENES = [
+  { Comp: DriveScene, dur: 135 },
+  { Comp: StopScene, dur: 175 },
+  { Comp: LogoScene, dur: 115 },
+  { Comp: DemoScene, dur: 200 },
+  { Comp: PillarsScene, dur: 170 },
+  { Comp: MoatScene, dur: 175 },
+  { Comp: MarketScene, dur: 155 },
+  { Comp: ModesScene, dur: 165 },
+] as const;
+
+const TOTAL =
+  SCENES.reduce((n, s) => n + s.dur, 0) - T * (SCENES.length - 1);
 
 export const MyComponent: React.FC = () => {
   return (
     <AbsoluteFill>
       <Audio src={staticFile("bgm.wav")} volume={0.7} />
       <TransitionSeries>
-        <TransitionSeries.Sequence durationInFrames={LOGO_DURATION}>
-          <LogoScene />
-        </TransitionSeries.Sequence>
-        <TransitionSeries.Transition
-          timing={linearTiming({ durationInFrames: TRANSITION })}
-          presentation={fade()}
-        />
-        <TransitionSeries.Sequence durationInFrames={DEMO_DURATION}>
-          <DemoScene />
-        </TransitionSeries.Sequence>
-        <TransitionSeries.Transition
-          timing={linearTiming({ durationInFrames: TRANSITION })}
-          presentation={fade()}
-        />
-        <TransitionSeries.Sequence durationInFrames={MODES_DURATION}>
-          <ModesScene />
-        </TransitionSeries.Sequence>
+        {SCENES.flatMap(({ Comp, dur }, i) => {
+          const nodes = [
+            <TransitionSeries.Sequence key={`s${i}`} durationInFrames={dur}>
+              <Comp />
+            </TransitionSeries.Sequence>,
+          ];
+          if (i < SCENES.length - 1) {
+            nodes.push(
+              <TransitionSeries.Transition
+                key={`t${i}`}
+                timing={linearTiming({ durationInFrames: T })}
+                presentation={fade()}
+              />,
+            );
+          }
+          return nodes;
+        })}
       </TransitionSeries>
     </AbsoluteFill>
   );
 };
-
-const TOTAL =
-  LOGO_DURATION + DEMO_DURATION + MODES_DURATION - TRANSITION * 2;
 
 export const MyComposition = () => {
   return (

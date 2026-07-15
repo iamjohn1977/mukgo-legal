@@ -4,7 +4,7 @@
 import { writeFileSync } from "node:fs";
 
 const SR = 44100;
-const DUR = 16.2; // matches 486 frames @ 30fps
+const DUR = 38.0; // covers the ~37.9s promo (1136 frames @ 30fps)
 const N = Math.floor(SR * DUR);
 const L = new Float32Array(N);
 const R = new Float32Array(N);
@@ -16,8 +16,10 @@ const CHORDS = [
   { root: 130.81, tri: [261.63, 329.63, 392.0] }, // C
   { root: 98.0, tri: [196.0, 246.94, 293.66] }, // G
 ];
-const SEQ = [0, 1, 2, 3, 0, 1, 2, 3];
 const BAR = 2.0; // seconds per chord
+const N_BARS = Math.ceil(DUR / BAR);
+// Loop the i–VI–III–VII progression across the whole track.
+const SEQ = Array.from({ length: N_BARS }, (_, b) => b % 4);
 const BEAT = 0.5; // 120 BPM
 const ARP = 0.125; // 16th notes
 
