@@ -3,6 +3,7 @@ import { Background } from "./Background";
 import { C, DISPLAY, MONO, TEXT_GRADIENT } from "./brand";
 import { useProgress, useRise } from "./anim";
 import { ease } from "./brand";
+import { COPY, Lang } from "./copy";
 
 const CountStat: React.FC<{
   prefix?: string;
@@ -88,7 +89,8 @@ const TractionBadge: React.FC<{ text: string; delay: number }> = ({
   );
 };
 
-export const MarketScene: React.FC = () => {
+export const MarketScene: React.FC<{ lang: Lang }> = ({ lang }) => {
+  const t = COPY[lang].market;
   const eyebrow = useRise(2, 18);
   const h1 = useRise(6, 26);
 
@@ -115,7 +117,7 @@ export const MarketScene: React.FC = () => {
               fontWeight: 600,
             }}
           >
-            03 · THE MARKET
+            {t.eyebrow}
           </div>
           <div
             style={{
@@ -127,37 +129,27 @@ export const MarketScene: React.FC = () => {
               textAlign: "center",
             }}
           >
-            자동차 — 마지막 남은 미개척 공간
+            {t.h1}
           </div>
         </div>
 
         <div style={{ display: "flex", gap: 40 }}>
-          <CountStat
-            target={240}
-            suffix="M"
-            caption="미국 운전면허 보유자"
-            delay={24}
-          />
-          <CountStat
-            prefix="$"
-            target={213}
-            suffix="B"
-            caption="미국 로드트립 관광 시장"
-            delay={34}
-          />
-          <CountStat
-            target={62}
-            suffix="%"
-            caption="화장실이 깨끗하면 더 쓴다 (Harris Poll)"
-            delay={44}
-          />
+          {t.stats.map((s, i) => (
+            <CountStat
+              key={s.caption}
+              prefix={s.prefix}
+              target={s.target}
+              suffix={s.suffix}
+              caption={s.caption}
+              delay={24 + i * 10}
+            />
+          ))}
         </div>
 
         <div style={{ display: "flex", gap: 16, flexWrap: "wrap", justifyContent: "center" }}>
-          <TractionBadge text="Google Play 오픈 테스트 (US & KR)" delay={78} />
-          <TractionBadge text="음식 + 주유 실데이터" delay={84} />
-          <TractionBadge text="청결 평점 라이브 (독점)" delay={90} />
-          <TractionBadge text="5개 언어 · 구독(RevenueCat)" delay={96} />
+          {t.badges.map((b, i) => (
+            <TractionBadge key={b} text={b} delay={78 + i * 6} />
+          ))}
         </div>
       </AbsoluteFill>
     </AbsoluteFill>

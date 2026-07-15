@@ -2,6 +2,7 @@ import { AbsoluteFill, Interactive } from "remotion";
 import { Background } from "./Background";
 import { C, DISPLAY, MONO, TEXT_GRADIENT } from "./brand";
 import { usePop, useRise } from "./anim";
+import { COPY, Lang } from "./copy";
 
 const GrimItem: React.FC<{ emoji: string; text: string; delay: number }> = ({
   emoji,
@@ -78,7 +79,8 @@ const Stat: React.FC<{
   );
 };
 
-export const StopScene: React.FC = () => {
+export const StopScene: React.FC<{ lang: Lang }> = ({ lang }) => {
+  const t = COPY[lang].stop;
   const eyebrow = useRise(2, 18);
   const h1 = useRise(6, 28);
   const punch = useRise(96, 24);
@@ -105,7 +107,7 @@ export const StopScene: React.FC = () => {
             fontWeight: 600,
           }}
         >
-          THE STOP
+          {t.eyebrow}
         </div>
         <div
           style={{
@@ -117,25 +119,25 @@ export const StopScene: React.FC = () => {
             textAlign: "center",
           }}
         >
-          겨우 들른 휴게소.
+          {t.h1}
         </div>
 
         <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
-          <GrimItem emoji="🌭" text="언제부터 돌던 건지 모를 핫도그" delay={20} />
-          <GrimItem emoji="🥪" text="유리 안에서 말라가는 샌드위치" delay={28} />
-          <GrimItem emoji="🚻" text="문을 여는 순간, 발길을 돌린다" delay={36} />
+          {t.items.map(([emoji, text], i) => (
+            <GrimItem key={i} emoji={emoji} text={text} delay={20 + i * 8} />
+          ))}
         </div>
 
         <div style={{ display: "flex", gap: 96, marginTop: 10 }}>
           <Stat
-            value="15%"
-            caption="주유소 화장실이 '괜찮다'는 응답"
+            value={t.stats[0].value}
+            caption={t.stats[0].caption}
             color="#FF7A45"
             delay={58}
           />
           <Stat
-            value="80%"
-            caption="더러운 화장실 뒤 다시 오지 않는다"
+            value={t.stats[1].value}
+            caption={t.stats[1].caption}
             color={C.magenta}
             delay={68}
           />
@@ -151,7 +153,7 @@ export const StopScene: React.FC = () => {
             color: C.ink,
           }}
         >
-          그런데 이 정보는{" "}
+          {t.punchA}
           <span
             style={{
               background: TEXT_GRADIENT,
@@ -160,7 +162,7 @@ export const StopScene: React.FC = () => {
               color: "transparent",
             }}
           >
-            어떤 지도에도 없었다.
+            {t.punchB}
           </span>
         </div>
       </AbsoluteFill>

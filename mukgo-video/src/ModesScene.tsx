@@ -14,6 +14,7 @@ import {
   TEXT_GRADIENT,
   ease,
 } from "./brand";
+import { COPY, Lang } from "./copy";
 
 const spring = Easing.bezier(0.34, 1.56, 0.64, 1);
 
@@ -59,7 +60,11 @@ const Check: React.FC<{ delay: number }> = ({ delay }) => {
   );
 };
 
-const DriveCard: React.FC<{ delay: number }> = ({ delay }) => {
+const DriveCard: React.FC<{ delay: number; title: string; sub: string }> = ({
+  delay,
+  title,
+  sub,
+}) => {
   const s = usePop(delay);
   const frame = useCurrentFrame();
   const glow = interpolate(Math.sin(frame / 12), [-1, 1], [0.35, 0.6]);
@@ -98,7 +103,7 @@ const DriveCard: React.FC<{ delay: number }> = ({ delay }) => {
             textShadow: "0 2px 10px rgba(0,0,0,0.25)",
           }}
         >
-          <span style={{ fontSize: 44 }}>🚗</span> 운전 모드
+          <span style={{ fontSize: 44 }}>🚗</span> {title}
         </div>
         <Check delay={delay + 20} />
       </div>
@@ -110,7 +115,7 @@ const DriveCard: React.FC<{ delay: number }> = ({ delay }) => {
           letterSpacing: 2,
         }}
       >
-        혼자 · 경로 · 맛집
+        {sub}
       </div>
       <div
         style={{
@@ -126,7 +131,11 @@ const DriveCard: React.FC<{ delay: number }> = ({ delay }) => {
   );
 };
 
-const MeetupCard: React.FC<{ delay: number }> = ({ delay }) => {
+const MeetupCard: React.FC<{ delay: number; title: string; sub: string }> = ({
+  delay,
+  title,
+  sub,
+}) => {
   const s = usePop(delay);
   return (
     <Interactive.Div
@@ -154,7 +163,7 @@ const MeetupCard: React.FC<{ delay: number }> = ({ delay }) => {
           color: "rgba(255,255,255,0.86)",
         }}
       >
-        <span style={{ fontSize: 44 }}>📍</span> 모임 모드
+        <span style={{ fontSize: 44 }}>📍</span> {title}
       </div>
       <div
         style={{
@@ -164,14 +173,18 @@ const MeetupCard: React.FC<{ delay: number }> = ({ delay }) => {
           letterSpacing: 2,
         }}
       >
-        함께 · 목적지 · ETA
+        {sub}
       </div>
       <div style={{ height: 13 }} />
     </Interactive.Div>
   );
 };
 
-const CtaButtons: React.FC<{ delay: number }> = ({ delay }) => {
+const CtaButtons: React.FC<{ delay: number; cta: string; cta2: string }> = ({
+  delay,
+  cta,
+  cta2,
+}) => {
   const r = useRise(delay, 24);
   const frame = useCurrentFrame();
   const pulse = interpolate(Math.sin(frame / 10), [-1, 1], [0.4, 0.72]);
@@ -196,7 +209,7 @@ const CtaButtons: React.FC<{ delay: number }> = ({ delay }) => {
           color: "#0A0713",
         }}
       >
-        <span style={{ fontSize: 28 }}>🚗</span> 운전 모드 시작
+        <span style={{ fontSize: 28 }}>🚗</span> {cta}
       </div>
       <div
         style={{
@@ -213,13 +226,14 @@ const CtaButtons: React.FC<{ delay: number }> = ({ delay }) => {
           color: C.mute,
         }}
       >
-        <span style={{ color: C.cyan }}>●</span> LIVE PREVIEW · MEETUP →
+        <span style={{ color: C.cyan }}>●</span> {cta2}
       </div>
     </Interactive.Div>
   );
 };
 
-export const ModesScene: React.FC = () => {
+export const ModesScene: React.FC<{ lang: Lang }> = ({ lang }) => {
+  const t = COPY[lang].modes;
   const eyebrow = useRise(2, 20);
   const h1 = useRise(6, 28);
   const sub = useRise(14, 24);
@@ -249,7 +263,7 @@ export const ModesScene: React.FC = () => {
               fontWeight: 600,
             }}
           >
-            04 · TWO MODES, ONE APP
+            {t.eyebrow}
           </div>
           <div
             style={{
@@ -261,7 +275,7 @@ export const ModesScene: React.FC = () => {
               textAlign: "center",
             }}
           >
-            혼자든,{" "}
+            {t.h1a}
             <span
               style={{
                 background: TEXT_GRADIENT,
@@ -270,7 +284,7 @@ export const ModesScene: React.FC = () => {
                 color: "transparent",
               }}
             >
-              함께든
+              {t.h1b}
             </span>
           </div>
           <div
@@ -282,16 +296,16 @@ export const ModesScene: React.FC = () => {
               fontWeight: 500,
             }}
           >
-            한 번의 탭으로 전환하세요
+            {t.sub}
           </div>
         </div>
 
         <div style={{ display: "flex", gap: 34 }}>
-          <DriveCard delay={24} />
-          <MeetupCard delay={32} />
+          <DriveCard delay={24} title={t.driveTitle} sub={t.driveSub} />
+          <MeetupCard delay={32} title={t.meetupTitle} sub={t.meetupSub} />
         </div>
 
-        <CtaButtons delay={62} />
+        <CtaButtons delay={62} cta={t.cta} cta2={t.cta2} />
       </AbsoluteFill>
     </AbsoluteFill>
   );

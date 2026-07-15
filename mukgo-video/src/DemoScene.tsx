@@ -15,6 +15,9 @@ import {
   TEXT_GRADIENT,
   ease,
 } from "./brand";
+import { COPY, Lang } from "./copy";
+
+type DemoCopy = (typeof COPY)["ko"]["demo"];
 
 const Easing_spring = Easing.bezier(0.34, 1.56, 0.64, 1);
 
@@ -196,7 +199,7 @@ const StatusBar: React.FC = () => (
   </div>
 );
 
-const HeaderCard: React.FC = () => {
+const HeaderCard: React.FC<{ t: DemoCopy }> = ({ t }) => {
   const r = useRise(8);
   return (
     <div
@@ -236,7 +239,7 @@ const HeaderCard: React.FC = () => {
             letterSpacing: 1,
           }}
         >
-          진행 방향 · 북동
+          {t.navDir}
         </div>
         <div
           style={{
@@ -246,7 +249,7 @@ const HeaderCard: React.FC = () => {
             color: C.ink,
           }}
         >
-          강남 → 성수
+          {t.route}
         </div>
       </div>
       <div style={{ textAlign: "right" }}>
@@ -307,7 +310,7 @@ const AheadRow: React.FC<{
   );
 };
 
-const AheadCard: React.FC = () => {
+const AheadCard: React.FC<{ t: DemoCopy }> = ({ t }) => {
   const r = useRise(14);
   return (
     <div
@@ -335,15 +338,15 @@ const AheadCard: React.FC = () => {
             letterSpacing: 1,
           }}
         >
-          ⛽ AHEAD · 진행 방향 앞
+          {t.aheadTitle}
         </span>
         <span style={{ fontFamily: MONO, fontSize: 15, color: C.mute }}>
-          3 stations
+          {t.stations}
         </span>
       </div>
-      <AheadRow dist="1.2km" name="SK 성수" side="우측" price="₩1,687" delay={20} />
-      <AheadRow dist="2.8km" name="GS 뚝섬" side="좌측" price="₩1,692" delay={25} />
-      <AheadRow dist="3.5km" name="S-Oil" side="우측" price="₩1,679" delay={30} />
+      <AheadRow dist="1.2km" name="SK 성수" side={t.sideR} price="₩1,687" delay={20} />
+      <AheadRow dist="2.8km" name="GS 뚝섬" side={t.sideL} price="₩1,692" delay={25} />
+      <AheadRow dist="3.5km" name="S-Oil" side={t.sideR} price="₩1,679" delay={30} />
     </div>
   );
 };
@@ -386,7 +389,7 @@ const TopRow: React.FC<{
   );
 };
 
-const BottomSheet: React.FC = () => {
+const BottomSheet: React.FC<{ t: DemoCopy }> = ({ t }) => {
   const r = useRise(30, 40);
   return (
     <div
@@ -418,20 +421,27 @@ const BottomSheet: React.FC = () => {
             letterSpacing: 1,
           }}
         >
-          TOP 5 ON YOUR ROUTE
+          {t.topTitle}
         </span>
         <span style={{ fontFamily: MONO, fontSize: 14, color: C.mute }}>
-          "1" ~ "5" 말하기
+          {t.speak}
         </span>
       </div>
-      <TopRow n={1} name="성수 감자탕" meta="한식 · ★ 4.8" eta="+3" delay={38} />
-      <TopRow n={2} name="라멘 부탄" meta="일식 · ★ 4.6" eta="+6" delay={44} />
-      <TopRow n={3} name="블루보틀" meta="카페 · ★ 4.7" eta="+8" delay={50} />
+      {t.picks.map((p, i) => (
+        <TopRow
+          key={p.name}
+          n={i + 1}
+          name={p.name}
+          meta={p.meta}
+          eta={["+3", "+6", "+8"][i]}
+          delay={38 + i * 6}
+        />
+      ))}
     </div>
   );
 };
 
-const PhoneMockup: React.FC = () => {
+const PhoneMockup: React.FC<{ t: DemoCopy }> = ({ t }) => {
   const frame = useCurrentFrame();
   const enter = interpolate(frame, [0, 26], [0, 1], {
     extrapolateLeft: "clamp",
@@ -485,18 +495,18 @@ const PhoneMockup: React.FC = () => {
               padding: "6px 16px 0",
             }}
           >
-            <HeaderCard />
-            <AheadCard />
+            <HeaderCard t={t} />
+            <AheadCard t={t} />
           </div>
           <div style={{ flex: 1 }} />
-          <BottomSheet />
+          <BottomSheet t={t} />
         </div>
       </div>
     </Interactive.Div>
   );
 };
 
-const Headline: React.FC = () => {
+const Headline: React.FC<{ t: DemoCopy }> = ({ t }) => {
   const l1 = useRise(6, 28);
   const l2 = useRise(12, 28);
   const sub = useRise(20, 24);
@@ -535,7 +545,7 @@ const Headline: React.FC = () => {
       </Interactive.Div>
 
       <div style={{ fontFamily: DISPLAY, fontWeight: 800, lineHeight: 1.05 }}>
-        <div style={{ ...l1, fontSize: 100, color: C.ink }}>운전 중 한 눈에</div>
+        <div style={{ ...l1, fontSize: 100, color: C.ink }}>{t.h1}</div>
         <div
           style={{
             ...l2,
@@ -546,7 +556,7 @@ const Headline: React.FC = () => {
             color: "transparent",
           }}
         >
-          찾는 맛집
+          {t.h1grad}
         </div>
       </div>
 
@@ -560,9 +570,9 @@ const Headline: React.FC = () => {
           fontWeight: 500,
         }}
       >
-        진행 방향 앞 주유소만 필터링하고,
+        {t.subA}
         <br />
-        추천 맛집 5곳을 한눈에 보여줍니다.
+        {t.subB}
       </div>
 
       <div
@@ -581,7 +591,8 @@ const Headline: React.FC = () => {
   );
 };
 
-export const DemoScene: React.FC = () => {
+export const DemoScene: React.FC<{ lang: Lang }> = ({ lang }) => {
+  const t = COPY[lang].demo;
   return (
     <AbsoluteFill style={{ backgroundColor: C.bg0 }}>
       <Background />
@@ -594,8 +605,8 @@ export const DemoScene: React.FC = () => {
           padding: "0 120px",
         }}
       >
-        <Headline />
-        <PhoneMockup />
+        <Headline t={t} />
+        <PhoneMockup t={t} />
       </AbsoluteFill>
     </AbsoluteFill>
   );

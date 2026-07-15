@@ -2,6 +2,7 @@ import { AbsoluteFill, Interactive } from "remotion";
 import { Background } from "./Background";
 import { BRAND_GRADIENT, C, DISPLAY, MONO, TEXT_GRADIENT } from "./brand";
 import { usePop, useRise } from "./anim";
+import { COPY, Lang } from "./copy";
 
 const CompareRow: React.FC<{
   feature: string;
@@ -48,7 +49,8 @@ const CompareRow: React.FC<{
   );
 };
 
-export const MoatScene: React.FC = () => {
+export const MoatScene: React.FC<{ lang: Lang }> = ({ lang }) => {
+  const t = COPY[lang].moat;
   const eyebrow = useRise(2, 18);
   const h1 = useRise(6, 26);
   const header = useRise(20, 18);
@@ -77,7 +79,7 @@ export const MoatScene: React.FC = () => {
               fontWeight: 600,
             }}
           >
-            02 · THE MOAT
+            {t.eyebrow}
           </div>
           <div
             style={{
@@ -89,7 +91,7 @@ export const MoatScene: React.FC = () => {
               textAlign: "center",
             }}
           >
-            구글맵에도, 옐프에도{" "}
+            {t.h1a}
             <span
               style={{
                 background: TEXT_GRADIENT,
@@ -98,7 +100,7 @@ export const MoatScene: React.FC = () => {
                 color: "transparent",
               }}
             >
-              없는 데이터
+              {t.h1b}
             </span>
           </div>
         </div>
@@ -118,34 +120,19 @@ export const MoatScene: React.FC = () => {
             }}
           >
             <span />
-            <span>GOOGLE MAPS · YELP</span>
-            <span style={{ color: C.green }}>MUKGO</span>
+            <span>{t.colOthers}</span>
+            <span style={{ color: C.green }}>{t.colMukgo}</span>
           </div>
-          <CompareRow
-            feature="진행 방향 기준"
-            others="전방위"
-            mukgo="전방만 (음식·주유)"
-            delay={30}
-          />
-          <CompareRow
-            feature="실시간 유가"
-            others="제한적"
-            mukgo="전방 · 실시간"
-            delay={38}
-          />
-          <CompareRow
-            feature="화장실·음식 청결도"
-            others="없음"
-            mukgo="운전자 평점 (독점)"
-            highlight
-            delay={46}
-          />
-          <CompareRow
-            feature="다국어"
-            others="OS 의존"
-            mukgo="5개 언어 내장"
-            delay={54}
-          />
+          {t.rows.map((row, i) => (
+            <CompareRow
+              key={row.feature}
+              feature={row.feature}
+              others={row.others}
+              mukgo={row.mukgo}
+              highlight={row.highlight}
+              delay={30 + i * 8}
+            />
+          ))}
         </div>
 
         <Interactive.Div
@@ -161,7 +148,7 @@ export const MoatScene: React.FC = () => {
             borderRadius: 999,
           }}
         >
-          쓸수록 쌓이고, 쌓일수록 강해진다 — 시간이 만드는 해자
+          {t.compound}
         </Interactive.Div>
       </AbsoluteFill>
     </AbsoluteFill>

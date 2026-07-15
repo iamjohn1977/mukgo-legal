@@ -2,6 +2,7 @@ import { AbsoluteFill, Interactive } from "remotion";
 import { Background } from "./Background";
 import { BRAND_GRADIENT, C, DISPLAY, MONO } from "./brand";
 import { usePop, useRise } from "./anim";
+import { COPY, Lang } from "./copy";
 
 const Pillar: React.FC<{
   emoji: string;
@@ -85,7 +86,8 @@ const ValueChip: React.FC<{ label: string; delay: number }> = ({
   );
 };
 
-export const PillarsScene: React.FC = () => {
+export const PillarsScene: React.FC<{ lang: Lang }> = ({ lang }) => {
+  const t = COPY[lang].pillars;
   const eyebrow = useRise(2, 18);
   const h1 = useRise(6, 26);
 
@@ -112,7 +114,7 @@ export const PillarsScene: React.FC = () => {
               fontWeight: 600,
             }}
           >
-            01 · THE PRODUCT
+            {t.eyebrow}
           </div>
           <div
             style={{
@@ -124,39 +126,27 @@ export const PillarsScene: React.FC = () => {
               textAlign: "center",
             }}
           >
-            한 번의 정차, 세 가지를 한눈에
+            {t.h1}
           </div>
         </div>
 
         <div style={{ display: "flex", gap: 30 }}>
-          <Pillar
-            emoji="🍔"
-            title="Food"
-            tag="DRIVE"
-            desc="경로 앞 5곳 추천 · 16개 국적 요리 · 평점/가격/거리, 원탭 길찾기"
-            delay={24}
-          />
-          <Pillar
-            emoji="⛽"
-            title="Gas"
-            tag="AHEAD"
-            desc="진행 방향 앞만 · 실시간 유가 · 없으면 반경 자동 확장"
-            delay={32}
-          />
-          <Pillar
-            emoji="🚻"
-            title="Clean Stops"
-            tag="RATINGS"
-            desc="운전자가 매기는 화장실·음식 청결도 — 들르기 전에 결정"
-            delay={40}
-          />
+          {t.items.map((it, i) => (
+            <Pillar
+              key={it.title}
+              emoji={it.emoji}
+              title={it.title}
+              tag={it.tag}
+              desc={it.desc}
+              delay={24 + i * 8}
+            />
+          ))}
         </div>
 
         <div style={{ display: "flex", gap: 20 }}>
-          <ValueChip label="CLEAN" delay={62} />
-          <ValueChip label="SAFE" delay={68} />
-          <ValueChip label="FRESH" delay={74} />
-          <ValueChip label="TASTY" delay={80} />
+          {t.values.map((v, i) => (
+            <ValueChip key={v} label={v} delay={62 + i * 6} />
+          ))}
         </div>
       </AbsoluteFill>
     </AbsoluteFill>

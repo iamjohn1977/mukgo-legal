@@ -2,6 +2,7 @@ import { AbsoluteFill, Interactive, interpolate, useCurrentFrame } from "remotio
 import { Background } from "./Background";
 import { C, DISPLAY, MONO } from "./brand";
 import { useProgress, useRise } from "./anim";
+import { COPY, Lang } from "./copy";
 
 const Gauge: React.FC<{
   label: string;
@@ -67,7 +68,8 @@ const Gauge: React.FC<{
   );
 };
 
-export const DriveScene: React.FC = () => {
+export const DriveScene: React.FC<{ lang: Lang }> = ({ lang }) => {
+  const t = COPY[lang].drive;
   const frame = useCurrentFrame();
   const eyebrow = useRise(2, 18);
   const h1 = useRise(8, 30);
@@ -107,7 +109,7 @@ export const DriveScene: React.FC = () => {
             fontWeight: 600,
           }}
         >
-          THE DRIVE
+          {t.eyebrow}
         </div>
         <div
           style={{
@@ -119,13 +121,13 @@ export const DriveScene: React.FC = () => {
             lineHeight: 1.05,
           }}
         >
-          여덟 시간째,
+          {t.h1[0]}
           <br />
-          핸들 앞.
+          {t.h1[1]}
         </div>
         <div style={{ ...h2, display: "flex", gap: 48 }}>
-          <Gauge label="FUEL" value={8} color="#FF7A45" delay={30} />
-          <Gauge label="HUNGER" value={100} color={C.cyan} delay={40} />
+          <Gauge label={t.fuel} value={8} color="#FF7A45" delay={30} />
+          <Gauge label={t.hunger} value={100} color={C.cyan} delay={40} />
         </div>
         <div
           style={{
@@ -136,7 +138,7 @@ export const DriveScene: React.FC = () => {
             color: C.mute,
           }}
         >
-          다음 출구가, 반드시 되어야 한다.
+          {t.kicker}
         </div>
       </AbsoluteFill>
     </AbsoluteFill>
