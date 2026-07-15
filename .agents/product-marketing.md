@@ -103,14 +103,14 @@
 ## Goals
 **Business goal:** Public launch + build the cleanliness-data moat; reach 3,000 MAU in 90 days.
 **Conversion action:** Install from Google Play → rate a stop (activation) → Premium subscription.
-**North Star metric:** *"Would the user choose to stop here again?"* (adopted after the Buc-ee's insight — see below; supersedes the earlier "Was the user glad they stopped?", which remains usable as warm emotional copy). The word "again" closes the loop with the founding frustration ("why did I come back here again?") and ties directly to retention + the personal-decision-graph moat.
+**North Star metric:** *"Would the user choose to stop here again?"* (adopted from the clean-stop insight — see below; supersedes the earlier "Was the user glad they stopped?", which remains usable as warm emotional copy). The word "again" closes the loop with the founding frustration ("why did I come back here again?") and ties directly to retention + the personal-decision-graph moat.
 
-## The Buc-ee's Insight (core brand philosophy)
-Founder's canonical example: **Buc-ee's (TX)** — visited Denton, Amarillo, and the new Denver, CO location. The point is *not* to praise Buc-ee's but to illustrate MukGo's philosophy:
+## The Clean-Stop Insight (core brand philosophy)
+Founder's insight, drawn from the best-run travel stops he's experienced over hundreds of thousands of miles. **Naming rule: do NOT name any specific company/brand in public materials** (homepage, PH, video, ads) or on pitch slides — it reads as riding on another brand's reputation and raises trademark/endorsement risk. The founder may reference a personal benchmark *verbally* in a private investor room, at his discretion. Keep the *principle*, not the brand:
 - **"A restroom is a window into how a business thinks."** Clean restroom → clean store → good food → friendly staff all flow from one operating philosophy.
 - **Quotable line:** *"You can learn more about a business from its restroom than from its advertising."*
-- **Framing rule:** Buc-ee's is the *exception that proves the rule* — most stops don't tell you which kind they are; MukGo does. (Pre-empts the "but Buc-ee's is already known for clean restrooms" objection.)
+- **Framing rule:** the great stops are the *exception* — most stops don't tell you which kind they are; MukGo does.
 - **Reframes the category deeper:** people aren't looking for food — they're looking for a place they can *trust* enough to walk into. Keep "decision engine for drivers" as the headline category; **trust** is the philosophy beneath it (consistent with "Stop with confidence"). Do *not* replace the headline with "Trust Discovery Platform" (too buzzwordy/generic).
-- **The six trust factors** (what "worth it" means, and what MukGo rates toward): food · restroom · cleanliness · service · safety · convenience. These map to the B2B "Clean-Certified" badge — i.e. certifying stops to a Buc-ee's-grade standard.
+- **The six trust factors** (what "worth it" means, and what MukGo rates toward): food · restroom · cleanliness · service · safety · convenience. These map to the B2B "Clean-Certified" badge — certifying stops to a best-in-class cleanliness standard.
 - **Brand line:** *"We don't collect stars. We record trust."*
-- **Demand proof:** people *detour* for a Buc-ee's — willingness to travel out of the way is live evidence of demand + willingness to pay (use on market/B2B slides).
+- **Demand proof:** drivers *detour* for a stop they trust — willingness to travel out of the way is live evidence of demand + willingness to pay (use on market/B2B slides), stated generically without naming a brand.

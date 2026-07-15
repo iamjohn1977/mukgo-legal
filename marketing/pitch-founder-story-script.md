@@ -16,7 +16,7 @@ Slide 1  Title (MukGo · Drive · Eat · Go)
   WHY-2  Four small frustrations
   WHY-3  The realization (search vs decide)
   WHY-4  The insight line
-  WHY-4B The Buc-ee's proof (cleanliness is core)
+  WHY-4B The clean-stop proof (cleanliness is core)
   WHY-4C Philosophy → North Star ("stop here again?")
   WHY-5  Why me (founder–market fit)
   WHY-6  I refused to accept them → MukGo
@@ -119,36 +119,37 @@ want them repeating to their partners after the meeting.
 
 ---
 
-## WHY-4B — The Buc-ee's proof (why cleanliness is *core*, not a feature)
+## WHY-4B — The clean-stop proof (why cleanliness is *core*, not a feature)
 
 **ON SCREEN (large, quotable):**
 > You can learn more about a business
 > from its restroom than from its advertising.
 
-**VISUAL:** One photograph of a pristine Buc-ee's-style restroom / store, then a slow pull to
-a MukGo cleanliness ★ card. Understated — one image, one line. Don't clutter it.
+**VISUAL:** One photograph of a genuinely pristine travel-stop restroom / store (generic, no
+identifiable brand), then a slow pull to a MukGo cleanliness ★ card. Understated — one image,
+one line. Don't clutter it.
 
-**SCRIPT (≈50 sec):**
-> "Let me make this concrete. If you asked me for the best stop in America, I'd say Buc-ee's,
-> in Texas. I've driven to the ones in Denton, Amarillo, even the new one in Denver.
->
-> And here's the thing — I don't love it for the cheapest gas or the biggest store. I love it
-> for the restroom. The moment you walk into a Buc-ee's restroom, you think: *this company
-> respects its customers.* Clean restroom, clean store, good food, friendly staff — all of it
-> flows from one philosophy.
+**SCRIPT (≈45 sec):**
+> "Let me make this concrete. In hundreds of thousands of miles, I've pulled into thousands of
+> stops. And the best ones — you can feel it the second you walk into the restroom. Clean
+> restroom, clean store, good food, friendly staff. None of that is an accident. It all flows
+> from one philosophy: *this place respects its customers.*
 >
 > That's when it clicked. A restroom isn't a facility. It's a window into how a business
-> thinks. Most people see Buc-ee's and think 'big, cheap gas.' The restroom told you
-> everything first.
+> thinks. Most people rate the food. The restroom told you everything first.
 >
-> But Buc-ee's is the exception. The problem is the thousands of stops that *don't* tell you
+> The trouble is, the great stops are the exception — and thousands of stops don't tell you
 > which kind they are. So we made cleanliness core information — not a footnote."
 
 **DELIVERY NOTE:** This is your *observation-as-founder* moment — investors are deciding
-whether you see what others miss. Frame Buc-ee's as the **exception that proves the rule**:
-the point isn't that Buc-ee's exists, it's that MukGo finds Buc-ee's-quality stops among the
-thousands that aren't labeled. Bonus: note that people *detour* for a stop like this — that's
-live proof of demand and willingness to pay (ties to the market & B2B slides).
+whether you see what others miss. The point isn't any one great chain; it's that the great
+ones are rare and unlabeled, and **MukGo finds that quality among the thousands that aren't**.
+Bonus: drivers will *detour* for a stop they trust — live proof of demand and willingness to
+pay (ties to the market & B2B slides).
+> **Note on naming:** keep specific brand names *off the slide and out of all public
+> materials* (homepage, PH, video, ads) — naming another company's brand there reads as
+> riding on their reputation and can raise trademark/endorsement issues. In a private investor
+> room, if it helps, you may name your personal benchmark *out loud* — your call, spoken only.
 
 ---
 
