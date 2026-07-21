@@ -122,97 +122,83 @@
   <div class="inner">
     <div class="logo">Muk<span>Go</span></div>
     <h1>Privacy Policy</h1>
-    <div class="meta">Effective date: June 12, 2026 &nbsp;·&nbsp; Applies to the MukGo mobile application</div>
+    <div class="meta">Effective date: July 21, 2026 &nbsp;&middot;&nbsp; Applies to the MukGo mobile application and website</div>
   </div>
 </div>
 
 <main>
 
   <div class="summary">
-    <strong>The short version:</strong> MukGo uses your location only to find restaurants and road-trip stops near you or along your route. We don't sell your data, we don't show ads, and we don't share your information with anyone except the services that make the app work. You can delete your profile at any time from inside the app.
+    <strong>The short version:</strong> MukGo runs on very little personal data. Your location is used live to find places near you and is not kept as a trip history. We do not sell your data, we do not show targeted ads, and there is no third-party analytics, tracking or advertising SDK in the app. You can have your account and data deleted by email at any time.
   </div>
 
   <h2><span class="num">1.</span>Who we are</h2>
-  <p>MukGo ("we," "us," or "our") is a road-trip food and stop finder app operated by ALPSPIRA, 18327 Gresham St, Northridge, CA 91324, USA. This Privacy Policy explains what information the MukGo app collects, how we use it, and the choices you have.</p>
+  <p>MukGo ("we," "us," or "our") is a driving companion app operated by ALPSPIRA, 18327 Gresham St, Northridge, CA 91324, USA. This Privacy Policy explains what the MukGo app collects, how we use it, and the choices you have. Questions and requests: <a href="mailto:privacy@alpspira.com">privacy@alpspira.com</a>.</p>
 
-  <h2><span class="num">2.</span>Information we collect</h2>
+  <h2><span class="num">2.</span>What we collect</h2>
   <table>
-    <tr><th>Data</th><th>What it includes</th><th>Why we collect it</th></tr>
-    <tr>
-      <td><strong>Location</strong></td>
-      <td>Approximate and precise device location, while you are using the app</td>
-      <td>To show restaurants, cafes, gas stations, and rest areas near you or near your destination, and to power Drive Mode</td>
-    </tr>
-    <tr>
-      <td><strong>Profile information</strong></td>
-      <td>Taste preferences (e.g., cuisine style, dietary needs such as vegan or halal), companion names you choose to add, preferred map app</td>
-      <td>To personalize recommendations and balance your group's tastes</td>
-    </tr>
-    <tr>
-      <td><strong>Trip input</strong></td>
-      <td>Destinations you type or select</td>
-      <td>To find places along your route</td>
-    </tr>
-    <tr>
-      <td><strong>Device &amp; diagnostics</strong></td>
-      <td>Basic device type, app version, and crash/error logs</td>
-      <td>To keep the app stable and fix bugs</td>
-    </tr>
+    <tr><th>Data</th><th>What it includes</th><th>Why</th></tr>
+    <tr><td>Account</td><td>Email address and nickname</td><td>Only if you sign in. Identifies your reviews, favorites and reward credits.</td></tr>
+    <tr><td>Location</td><td>Approximate position while a search screen is open</td><td>To find places near you and estimate walking time. See section 3.</td></tr>
+    <tr><td>Content you submit</td><td>Reviews, ratings, photos</td><td>Stored with your account and shown to other drivers.</td></tr>
+    <tr><td>Device identifier</td><td>A random id generated on your phone</td><td>Groups anonymous feedback and safety-warning consent, and prevents abuse of free limits. Not your advertising ID; not linked to your name.</td></tr>
+    <tr><td>Preferences</td><td>Language, distance units, vehicle type</td><td>Kept on your own device.</td></tr>
   </table>
-  <p>We do <strong>not</strong> collect your contacts, photos, microphone, camera, or background location. We do not use your data for advertising.</p>
+  <p>We do <strong>not</strong> collect your contacts, photo library, call logs, health data, or browsing history.</p>
 
-  <h2><span class="num">3.</span>How your information is used</h2>
+  <h2><span class="num">3.</span>Location &mdash; how it is actually used</h2>
+  <p>Location answers one question: what is near you right now. It is sent to our mapping provider to fetch nearby places, and it is used <em>on your device</em> to estimate walking times and to detect whether the car is moving, so that screens needing a lot of typing can lock themselves while you drive.</p>
+  <p>We do not build or store a history of where you have driven. Coordinates are not stored on our servers except where they are attached to a review you deliberately post, or as the coarse location of an anonymous stop rating (section 5). You can revoke location permission at any time in your phone settings; the app still works, with fewer features.</p>
+
+  <h2><span class="num">4.</span>AI stop planning</h2>
+  <p>When you tap the AI planner, we send Anthropic &mdash; our AI provider &mdash; only these four things: how many minutes you have, the names and categories of the nearby places already shown on your screen, their computed round-trip walking times, and your display language.</p>
+  <p>We do <strong>not</strong> send your name, email address, account ID, or coordinates. The AI orders and explains options; it neither receives nor produces personal data about you. Anthropic processes this as our service provider and, under its API terms, does not use it to train models.</p>
+
+  <h2><span class="num">5.</span>Anonymous stop feedback and safety consent</h2>
+  <p>When you answer whether a stop was worth it, we store the answer with the place, a coarse location and the random device identifier &mdash; not your account. When you accept the safety warning on first run, we store that acceptance with its date and time, the app version of the warning, and the same device identifier.</p>
+  <p>Both records are write-only from the app: they are used in aggregate (or, for consent, as a record that the warning was shown) and cannot be read back or tied to you through the app.</p>
+
+  <h2><span class="num">6.</span>Who else handles your data</h2>
+  <table>
+    <tr><th>Provider</th><th>What they receive</th></tr>
+    <tr><td>Google Places</td><td>Your approximate location and search terms, to return nearby places. Governed by Google's privacy policy.</td></tr>
+    <tr><td>Supabase (Lovable Cloud)</td><td>Hosts accounts, reviews and meetup data on our behalf.</td></tr>
+    <tr><td>Anthropic</td><td>AI planning requests as described in section 4.</td></tr>
+    <tr><td>Google Play &middot; Apple App Store</td><td>Handle purchases and subscriptions. We never see your card details.</td></tr>
+  </table>
+  <p>Each receives only what it needs, and none of them is permitted to sell your data.</p>
+
+  <h2><span class="num">7.</span>What we do not do</h2>
   <ul>
-    <li>To search for and display restaurants, cafes, gas stations, rest areas, and other points of interest relevant to your trip</li>
-    <li>To save your taste profile so recommendations improve over time</li>
-    <li>To launch navigation in the map app you choose</li>
-    <li>To diagnose crashes and improve app performance</li>
+    <li><span class="no">No</span> selling or renting of personal data</li>
+    <li><span class="no">No</span> targeted advertising</li>
+    <li><span class="no">No</span> third-party analytics, tracking or ad SDKs in the app</li>
+    <li><span class="no">No</span> audio or video recording</li>
+    <li><span class="no">No</span> tracking you across other apps or websites</li>
+    <li><span class="no">No</span> stored history of your trips</li>
   </ul>
 
-  <h2><span class="num">4.</span>Services we share data with</h2>
-  <p>MukGo works by querying trusted third-party services. We only send them what is needed to answer your search:</p>
-  <table>
-    <tr><th>Service</th><th>What is shared</th><th>Purpose</th></tr>
-    <tr><td>Supabase</td><td>Your profile and saved preferences</td><td>Secure cloud storage and sync</td></tr>
-    <tr><td>Google Places API</td><td>Search coordinates and search terms</td><td>Restaurant and place results</td></tr>
-    <tr><td>OpenStreetMap (Nominatim / Overpass)</td><td>Search coordinates and destination text</td><td>Geocoding and points of interest such as gas stations and rest areas</td></tr>
-    <tr><td>Your chosen map app (e.g., Google Maps)</td><td>The destination you tap "Navigate" on</td><td>Turn-by-turn navigation</td></tr>
-  </table>
-  <p>Do we sell your personal information? <span class="no">No</span>&nbsp;&nbsp; Do we share it with advertisers? <span class="no">No</span></p>
+  <h2><span class="num">8.</span>Keeping and deleting your data</h2>
+  <p>Account data is kept while your account exists. Reviews stay visible while they are useful to other drivers; when your account is deleted they are removed or permanently detached from you. Anonymous feedback and consent records are retained and cannot be reversed to identify you.</p>
+  <p>To delete your account and its data, or to request a copy of it, email <a href="mailto:privacy@alpspira.com?subject=MukGo%20Data%20Deletion%20Request">privacy@alpspira.com</a> from the address on your account. We verify the request and act within 30 days. Full instructions are on our <a href="MukGo-Data-Deletion.html">Data Deletion page</a>.</p>
+  <p>Depending on where you live you may have additional rights &mdash; access, correction, portability, objection, and the right to complain to your data protection authority. We honour these requests regardless of where you live. California residents may exercise rights under the CCPA/CPRA at the same address; we do not sell or share personal information as those terms are defined.</p>
 
-  <h2><span class="num">5.</span>Data storage and retention</h2>
-  <p>Your profile is stored locally on your device and, when available, synced to our secure Supabase database so it can be restored if you reinstall the app. We keep your profile only for as long as you use MukGo. If our servers are unreachable, the app continues to work using data stored on your device only.</p>
+  <h2><span class="num">9.</span>Children</h2>
+  <p>MukGo is not designed for children and is not directed to anyone under 18. We do not knowingly collect data from children. If you believe a child has given us data, email <a href="mailto:privacy@alpspira.com">privacy@alpspira.com</a> and we will delete it.</p>
 
-  <h2><span class="num">6.</span>Your choices and rights</h2>
-  <ul>
-    <li><strong>Delete your data:</strong> Use "Clear profile &amp; start fresh" inside the app to erase your profile. You may also email us to request deletion of any synced data.</li>
-    <li><strong>Location permission:</strong> You can revoke location access at any time in your device settings. The app will still work if you type a destination manually.</li>
-    <li><strong>Access and correction:</strong> You may contact us to request a copy of the data we hold about you, or to correct it.</li>
-  </ul>
-  <p>If you are a California resident, you have rights under the California Consumer Privacy Act (CCPA), including the right to know, delete, and opt out of the sale of personal information. MukGo does not sell personal information.</p>
-
-  <h2><span class="num">7.</span>Children's privacy</h2>
-  <p>MukGo is not directed at children under 13, and we do not knowingly collect personal information from children under 13. If you believe a child has provided us personal information, please contact us and we will delete it.</p>
-
-  <h2><span class="num">8.</span>Security</h2>
-  <p>We use industry-standard safeguards, including encrypted connections (HTTPS) for all network traffic between the app and our services. No method of transmission or storage is 100% secure, but we work to protect your information appropriately.</p>
-
-  <h2><span class="num">9.</span>Changes to this policy</h2>
-  <p>If we make material changes to this Privacy Policy, we will update the effective date above and notify you inside the app. Continued use of MukGo after changes take effect means you accept the updated policy.</p>
+  <h2><span class="num">10.</span>International transfers and changes</h2>
+  <p>Our providers may process data in countries other than yours, including the United States, using the safeguards those providers offer. If we change this policy in a material way we will announce it in the app and update the effective date above.</p>
 
   <div class="contact">
-    <h2>Contact us</h2>
-    <p>Questions or requests about your privacy? We're happy to help.</p>
-    <p>
-      <strong>ALPSPIRA — MukGo Privacy</strong><br>
-      18327 Gresham St, Northridge, CA 91324, USA<br>
-      Email: <a href="mailto:privacy@alpspira.com">privacy@alpspira.com</a>
-    </p>
+    <h2>Contact</h2>
+    <p>Privacy questions, data requests or complaints: <a href="mailto:privacy@alpspira.com">privacy@alpspira.com</a></p>
+    <p>ALPSPIRA, 18327 Gresham St, Northridge, CA 91324, USA</p>
+    <p>See also our <a href="MukGo-Terms.html">Terms of Service</a> and <a href="MukGo-Data-Deletion.html">Data Deletion</a> page.</p>
   </div>
 
 </main>
 
-<footer>© 2026 ALPSPIRA · MukGo — Great taste and cleanliness go hand in hand.</footer>
+<footer>&copy; 2026 ALPSPIRA &middot; MukGo</footer>
 
 </body>
 </html>
