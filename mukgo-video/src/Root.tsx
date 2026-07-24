@@ -2,6 +2,7 @@ import "./index.css";
 import { MyComposition } from "./Composition";
 import { VerticalCompositions } from "./VerticalPromo";
 import { TeslaCompositions } from "./TeslaPromo";
+import { GasModeComposition } from "./GasModePromo";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -9,6 +10,7 @@ export const RemotionRoot: React.FC = () => {
       <MyComposition />
       <VerticalCompositions />
       <TeslaCompositions />
+      <GasModeComposition />
     </>
   );
 };
