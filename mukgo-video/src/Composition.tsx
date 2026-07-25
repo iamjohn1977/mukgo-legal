@@ -1,5 +1,5 @@
-import { AbsoluteFill, Composition, staticFile } from "remotion";
-import { Audio } from "@remotion/media";
+import { AbsoluteFill, Composition } from "remotion";
+import { Bgm } from "./Bgm";
 import { linearTiming, TransitionSeries } from "@remotion/transitions";
 import { fade } from "@remotion/transitions/fade";
 import { DriveScene } from "./DriveScene";
@@ -31,7 +31,7 @@ const TOTAL = SCENES.reduce((n, s) => n + s.dur, 0) - T * (SCENES.length - 1);
 export const Promo: React.FC<{ lang: Lang }> = ({ lang }) => {
   return (
     <AbsoluteFill>
-      <Audio src={staticFile("bgm.wav")} volume={0.7} />
+      <Bgm />
       <TransitionSeries>
         {SCENES.flatMap(({ render, dur }, i) => {
           const nodes = [

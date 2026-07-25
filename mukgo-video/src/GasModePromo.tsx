@@ -2,13 +2,11 @@ import {
   AbsoluteFill,
   Composition,
   interpolate,
-  staticFile,
   useCurrentFrame,
-  useVideoConfig,
 } from "remotion";
-import { Audio } from "@remotion/media";
 import { linearTiming, TransitionSeries } from "@remotion/transitions";
 import { fade } from "@remotion/transitions/fade";
+import { Bgm } from "./Bgm";
 import { Background } from "./Background";
 import { BRAND_GRADIENT, C, DISPLAY, MONO, TEXT_GRADIENT } from "./brand";
 import { usePop, useProgress, useRise } from "./anim";
@@ -554,18 +552,9 @@ const STEPS: { n: number; title: string; caption: string; screen: React.ReactNod
 const TOTAL = STEPS.reduce((a, s) => a + s.dur, 0) - T * (STEPS.length - 1);
 
 const GasBody: React.FC = () => {
-  const { durationInFrames } = useVideoConfig();
   return (
     <AbsoluteFill>
-      <Audio
-        src={staticFile("bgm.wav")}
-        volume={(f) =>
-          interpolate(f, [0, 12, durationInFrames - 26, durationInFrames], [0, 0.55, 0.55, 0], {
-            extrapolateLeft: "clamp",
-            extrapolateRight: "clamp",
-          })
-        }
-      />
+      <Bgm />
       <TransitionSeries>
         {STEPS.flatMap(({ n, title, caption, screen, dur }, i) => {
           const out = [

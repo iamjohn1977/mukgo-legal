@@ -3,13 +3,11 @@ import {
   Composition,
   Interactive,
   interpolate,
-  staticFile,
   useCurrentFrame,
-  useVideoConfig,
 } from "remotion";
-import { Audio } from "@remotion/media";
 import { linearTiming, TransitionSeries } from "@remotion/transitions";
 import { fade } from "@remotion/transitions/fade";
+import { Bgm } from "./Bgm";
 import { Background } from "./Background";
 import { AppIcon } from "./AppIcon";
 import { BRAND_GRADIENT, C, DISPLAY, MONO, TEXT_GRADIENT } from "./brand";
@@ -586,20 +584,9 @@ const SCENES: { node: React.ReactNode; dur: number }[] = [
 const TOTAL = SCENES.reduce((n, s) => n + s.dur, 0) - T * (SCENES.length - 1);
 
 const TeslaBody: React.FC = () => {
-  const { durationInFrames } = useVideoConfig();
   return (
     <AbsoluteFill>
-      <Audio
-        src={staticFile("bgm.wav")}
-        volume={(f) =>
-          interpolate(
-            f,
-            [0, 12, durationInFrames - 26, durationInFrames],
-            [0, 0.6, 0.6, 0],
-            { extrapolateLeft: "clamp", extrapolateRight: "clamp" },
-          )
-        }
-      />
+      <Bgm />
       <TransitionSeries>
         {SCENES.flatMap(({ node, dur }, i) => {
           const out = [
