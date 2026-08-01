@@ -1,0 +1,5 @@
+# Upstream public-domain corpora, cloned on demand (see CONTENT-LICENSES.md).
+.sources/
+node_modules/
+package-lock.json
+package.json

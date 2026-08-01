@@ -1,0 +1,805 @@
+{
+  "_note": "Scripture references only. Actual verse text is resolved at build time from public-domain translations by tools/build-scripture.py — never written from memory.",
+  "people": [
+    {
+      "id": "abraham",
+      "era": "patriarch",
+      "ko": {
+        "name": "아브라함",
+        "epithet": "믿음의 조상",
+        "hook": "믿음의 조상은 같은 거짓말을 두 번 했습니다.",
+        "raw": [
+          { "ref": "Genesis 12:11-13", "say": "기근을 피해 애굽으로 내려가면서, 자기가 죽을까 두려워 아내를 누이라고 하게 시켰습니다. 아내의 안전보다 자기 목숨이 먼저였습니다." },
+          { "ref": "Genesis 16:1-2", "say": "약속이 늦어지자 하나님을 기다리는 대신 아내의 제안을 따라 여종에게로 갔습니다. 자기 힘으로 약속을 이루려 한 것입니다." },
+          { "ref": "Genesis 17:17", "say": "하나님이 아들을 주시겠다고 하셨을 때, 그는 엎드려 웃었습니다. 경외해서가 아니라 믿기지 않아서였습니다." },
+          { "ref": "Genesis 20:2", "say": "그리고 이십 년쯤 뒤, 똑같은 거짓말을 또 했습니다. 한 번의 실패가 아니라 고치지 못한 습관이었습니다." }
+        ],
+        "turn": { "ref": "Genesis 15:6", "say": "그가 의롭게 된 것은 그의 행실 때문이 아니었습니다. 그가 믿었고, 하나님이 그것을 의로 여기셨습니다. 순서가 중요합니다 — 그는 좋은 사람이 되어서 택함받은 것이 아니라, 택함받은 뒤에도 여전히 거짓말을 했습니다." },
+        "grace": "성경은 아브라함의 실패를 지우지 않습니다. 오히려 두 번 다 기록합니다. 하나님은 완성된 사람을 부르신 것이 아니라, 부르신 사람을 끝까지 붙드셨습니다.",
+        "mirror": "우리도 같은 죄를 두 번, 세 번 반복합니다. 그것이 우리가 은혜 밖에 있다는 증거가 아닙니다. 아브라함이 바로 그 자리에 있었습니다.",
+        "ask": [
+          "나는 하나님을 기다리지 못하고 내 힘으로 해결하려 한 적이 있습니까?",
+          "고쳐지지 않아서 포기해 버린 죄가 있습니까? 아브라함은 그 상태로도 '믿음의 조상'이라 불렸습니다."
+        ],
+        "read": ["Genesis 12", "Genesis 15", "Genesis 20", "Romans 4:18-25"]
+      },
+      "en": {
+        "name": "Abraham",
+        "epithet": "Father of the faithful",
+        "hook": "The father of faith told the same lie twice.",
+        "raw": [
+          { "ref": "Genesis 12:11-13", "say": "Going down to Egypt to escape famine, he told his wife to say she was his sister — because he feared for his own life. His safety came before hers." },
+          { "ref": "Genesis 16:1-2", "say": "When the promise was slow, he did not wait. He took his wife's suggestion and went to her servant, trying to produce the promise himself." },
+          { "ref": "Genesis 17:17", "say": "When God said he would have a son, he fell on his face and laughed — not in awe, but in disbelief." },
+          { "ref": "Genesis 20:2", "say": "Roughly twenty years later he told the identical lie again. Not one failure, but an uncured habit." }
+        ],
+        "turn": { "ref": "Genesis 15:6", "say": "He was counted righteous, and not for his conduct. He believed, and God credited it to him. The order matters: he was not chosen because he was good, and after being chosen he still lied." },
+        "grace": "Scripture does not delete Abraham's failures. It records both of them. God did not call a finished man; He held on to the man He called.",
+        "mirror": "We repeat the same sin twice, three times. That is not proof we are outside grace. It is exactly where Abraham stood.",
+        "ask": [
+          "Where have I stopped waiting on God and tried to force the outcome myself?",
+          "Is there a sin I've given up on because it won't change? Abraham was called the father of faith in that condition."
+        ],
+        "read": ["Genesis 12", "Genesis 15", "Genesis 20", "Romans 4:18-25"]
+      }
+    },
+    {
+      "id": "sarah",
+      "era": "patriarch",
+      "ko": {
+        "name": "사라",
+        "epithet": "웃었고, 웃지 않았다고 했던 사람",
+        "hook": "그는 하나님 앞에서 웃었고, 들키자 아니라고 했습니다.",
+        "raw": [
+          { "ref": "Genesis 16:6", "say": "자기 뜻대로 여종을 남편에게 준 뒤, 일이 틀어지자 그 여종을 학대했습니다. 자기가 만든 상황의 대가를 약한 사람에게 물렸습니다." },
+          { "ref": "Genesis 18:12", "say": "장막 뒤에서 속으로 웃었습니다. 하나님의 약속이 자기 몸의 현실 앞에서는 우스웠던 것입니다." },
+          { "ref": "Genesis 18:15", "say": "그리고 두려워서 '내가 웃지 아니하였나이다' 하고 부인했습니다. 하나님 앞에서 거짓말을 한 것입니다." }
+        ],
+        "turn": { "ref": "Genesis 21:6", "say": "결국 그는 다시 웃습니다. 이번에는 불신의 웃음이 아니라, 하나님이 만드신 웃음이었습니다. 같은 사람, 같은 입, 완전히 다른 웃음이었습니다." },
+        "grace": "하나님은 사라의 부인을 정정하시되 벌하지 않으셨습니다. 그리고 약속은 그대로 이루어졌습니다. 그의 믿음이 약속을 지탱한 것이 아니라, 약속이 그의 믿음을 지탱했습니다.",
+        "mirror": "우리도 기도해 놓고 속으로 웃습니다. 그리고 그런 적 없다고 합니다. 그래도 하나님은 하시던 일을 멈추지 않으십니다.",
+        "ask": [
+          "말로는 믿는다 하면서 속으로는 비웃고 있는 기도가 있습니까?",
+          "내 조급함의 대가를 누군가 대신 치르게 한 적이 있습니까?"
+        ],
+        "read": ["Genesis 16", "Genesis 18", "Genesis 21", "Hebrews 11:11"]
+      },
+      "en": {
+        "name": "Sarah",
+        "epithet": "She laughed, then denied it",
+        "hook": "She laughed at God, and when caught, said she hadn't.",
+        "raw": [
+          { "ref": "Genesis 16:6", "say": "Having handed her servant to her husband on her own initiative, she dealt harshly with that servant when it went wrong — making a weaker person pay for a situation she created." },
+          { "ref": "Genesis 18:12", "say": "She laughed to herself behind the tent. God's promise looked absurd against the facts of her body." },
+          { "ref": "Genesis 18:15", "say": "Then, afraid, she denied it: 'I laughed not.' She lied to God's face." }
+        ],
+        "turn": { "ref": "Genesis 21:6", "say": "In the end she laughs again — no longer the laugh of unbelief, but laughter God Himself made. Same woman, same mouth, an entirely different laugh." },
+        "grace": "God corrected Sarah's denial but did not punish it, and the promise arrived on schedule. Her faith did not hold up the promise; the promise held up her faith.",
+        "mirror": "We pray and laugh inwardly at our own prayer. Then we say we didn't. God does not stop what He is doing.",
+        "ask": [
+          "Which prayer am I saying out loud while quietly mocking it inside?",
+          "Has someone else paid the price for my impatience?"
+        ],
+        "read": ["Genesis 16", "Genesis 18", "Genesis 21", "Hebrews 11:11"]
+      }
+    },
+    {
+      "id": "jacob",
+      "era": "patriarch",
+      "ko": {
+        "name": "야곱",
+        "epithet": "이름이 곧 '속이는 자'였던 사람",
+        "hook": "그는 사기꾼이었고, 하나님은 그의 이름을 이스라엘로 바꾸셨습니다.",
+        "raw": [
+          { "ref": "Genesis 25:31-33", "say": "형이 배고파 지쳐 돌아왔을 때, 그 약함을 이용해 장자의 명분을 사들였습니다. 형제의 굶주림이 그에게는 기회였습니다." },
+          { "ref": "Genesis 27:19", "say": "눈먼 아버지 앞에서 '나는 아버지의 맏아들 에서로소이다'라고 정면으로 거짓말했습니다. 죽어가는 아버지를 속인 것입니다." },
+          { "ref": "Genesis 27:36", "say": "에서의 말이 그의 정체를 요약합니다. '그의 이름을 야곱이라 함이 합당하지 아니하니이까.' 속이는 자 — 그것이 그의 이름 뜻이었습니다." }
+        ],
+        "turn": { "ref": "Genesis 32:26", "say": "얍복 강가에서 그는 처음으로 빼앗지 않고 매달립니다. '당신이 내게 축복하지 아니하면 가게 하지 아니하겠나이다.' 훔치던 손이 붙드는 손이 되었습니다." },
+        "grace": "하나님은 그가 정직해진 다음에 만나주신 것이 아닙니다. 속이고 도망치는 길 위에서 먼저 찾아오셨습니다. 그리고 씨름 끝에 그를 절뚝이게 하신 뒤 축복하셨습니다.",
+        "mirror": "우리도 관계를 계산하고, 유리한 쪽으로 사실을 손질합니다. 야곱은 그 성향이 평생 갔습니다. 그런데도 이스라엘의 조상이 되었습니다.",
+        "ask": [
+          "나는 사람을 하나님이 주실 것을 얻어내는 수단으로 쓰고 있지 않습니까?",
+          "내가 절뚝이게 된 자리 — 그 상처가 오히려 하나님을 만난 흔적일 수 있습니까?"
+        ],
+        "read": ["Genesis 27", "Genesis 32", "Hosea 12:2-4"]
+      },
+      "en": {
+        "name": "Jacob",
+        "epithet": "His name meant 'deceiver'",
+        "hook": "He was a con man, and God renamed him Israel.",
+        "raw": [
+          { "ref": "Genesis 25:31-33", "say": "When his brother came in exhausted and starving, he used that weakness to buy the birthright. His brother's hunger was his opening." },
+          { "ref": "Genesis 27:19", "say": "He looked at his blind father and said flatly, 'I am Esau thy firstborn.' He deceived a dying man." },
+          { "ref": "Genesis 27:36", "say": "Esau's line sums him up: 'Is not he rightly named Jacob?' Supplanter — that was literally his name." }
+        ],
+        "turn": { "ref": "Genesis 32:26", "say": "At the Jabbok he finally stops taking and starts clinging: 'I will not let thee go, except thou bless me.' The hand that stole became the hand that held on." },
+        "grace": "God did not wait until he was honest. God met him on the road while he was still deceiving and fleeing — then wrestled him, left him limping, and blessed him.",
+        "mirror": "We calculate relationships and shade the facts our way. Jacob never fully lost that streak. He still became the father of Israel.",
+        "ask": [
+          "Am I using people as a means to get what only God can give?",
+          "Could the place where I now limp be the mark of having met God?"
+        ],
+        "read": ["Genesis 27", "Genesis 32", "Hosea 12:2-4"]
+      }
+    },
+    {
+      "id": "judah",
+      "era": "patriarch",
+      "ko": {
+        "name": "유다",
+        "epithet": "동생을 팔고, 며느리와 동침한 사람",
+        "hook": "예수님의 족보는 이 사람을 지나갑니다.",
+        "raw": [
+          { "ref": "Genesis 37:26-27", "say": "동생을 죽이는 대신 팔자고 제안한 것이 그였습니다. 그는 그것을 자비라고 포장했지만, 실은 돈이 되는 쪽을 택한 것입니다." },
+          { "ref": "Genesis 38:15-16", "say": "길가에서 창녀로 보이는 여인에게 다가갔습니다. 그 여인은 그가 아들에게 주기로 하고 주지 않은 며느리 다말이었습니다." },
+          { "ref": "Genesis 38:24", "say": "다말이 임신했다는 말을 듣고 그는 즉시 '그를 끌어내어 불사르라' 했습니다. 자기가 한 일은 모른 채, 남을 죽이라 판결한 것입니다." }
+        ],
+        "turn": { "ref": "Genesis 38:26", "say": "증거가 나오자 그는 도망치지 않았습니다. '그는 나보다 옳도다.' 성경에서 가장 짧고 가장 값비싼 자백 중 하나입니다." },
+        "grace": "그리고 훗날 그는 베냐민 대신 자기가 종이 되겠다고 나섭니다. 동생을 팔았던 손이 동생을 대신하는 손이 되었습니다. 이것이 바뀐 사람의 모습입니다.",
+        "mirror": "우리는 남의 죄에는 즉시 판결을 내리고 내 죄는 설명합니다. 유다의 전환점은 그 이중 잣대가 무너진 순간이었습니다.",
+        "ask": [
+          "내가 남에게 내린 판결을 나에게 적용하면 어떻게 됩니까?",
+          "'그가 나보다 옳도다'라고 말해야 할 사람이 있습니까?"
+        ],
+        "read": ["Genesis 37", "Genesis 38", "Genesis 44:18-34", "Matthew 1:3"]
+      },
+      "en": {
+        "name": "Judah",
+        "epithet": "Sold his brother, slept with his daughter-in-law",
+        "hook": "The genealogy of Jesus runs straight through this man.",
+        "raw": [
+          { "ref": "Genesis 37:26-27", "say": "It was his idea to sell his brother instead of killing him. He dressed it up as mercy; he chose the option that paid." },
+          { "ref": "Genesis 38:15-16", "say": "He approached a woman by the road he took for a prostitute. She was Tamar — his daughter-in-law, whom he had promised to his son and then withheld." },
+          { "ref": "Genesis 38:24", "say": "Told she was pregnant, he ruled instantly: 'Bring her forth, and let her be burnt.' Sentencing another to death for what he himself had done." }
+        ],
+        "turn": { "ref": "Genesis 38:26", "say": "When the evidence surfaced he did not run. 'She hath been more righteous than I.' One of the shortest and costliest confessions in Scripture." },
+        "grace": "Later he offers himself as a slave in Benjamin's place. The hand that sold a brother became the hand that substituted for one. That is what a changed man looks like.",
+        "mirror": "We sentence other people's sin instantly and explain our own. Judah's turning point was the collapse of that double standard.",
+        "ask": [
+          "What happens if I apply to myself the verdict I handed someone else?",
+          "Is there someone about whom I need to say, 'She is more righteous than I'?"
+        ],
+        "read": ["Genesis 37", "Genesis 38", "Genesis 44:18-34", "Matthew 1:3"]
+      }
+    },
+    {
+      "id": "moses",
+      "era": "exodus",
+      "ko": {
+        "name": "모세",
+        "epithet": "살인자였고, 하나님과 얼굴을 마주한 사람",
+        "hook": "그는 사람을 죽여 모래에 묻었습니다.",
+        "raw": [
+          { "ref": "Exodus 2:12", "say": "좌우를 살펴 사람이 없음을 보고 애굽 사람을 쳐죽여 모래에 감추었습니다. 좌우를 살폈다는 것 — 그는 그것이 잘못인 줄 알고 있었습니다." },
+          { "ref": "Exodus 4:13", "say": "불붙은 떨기나무 앞에서, 하나님의 직접적인 부르심에 그는 '주여 보낼 만한 자를 보내소서'라고 했습니다. 다섯 번째 거절이었습니다." },
+          { "ref": "Numbers 20:10-11", "say": "'우리가 너희를 위하여 이 반석에서 물을 내랴' — 화가 나서 반석을 두 번 쳤습니다. 하나님의 영광을 자기 것으로 돌린 순간이었습니다." },
+          { "ref": "Numbers 20:12", "say": "그 대가로 그는 약속의 땅에 들어가지 못했습니다. 사십 년을 이끌고도 문 앞에서 멈췄습니다." }
+        ],
+        "turn": { "ref": "Exodus 33:18", "say": "그가 마지막으로 구한 것은 능력도 성공도 아니었습니다. '주의 영광을 내게 보이소서.' 실패한 사람이 여전히 하나님을 원했습니다." },
+        "grace": "하나님은 살인 전과가 있는 도망자를 지도자로 쓰셨고, 그가 실패한 뒤에도 대면하여 말씀하셨습니다. 자격이 사역을 만든 것이 아니라 부르심이 만들었습니다.",
+        "mirror": "우리도 '나는 아니에요'라고 다섯 번 말합니다. 그리고 지쳤을 때 사람들 앞에서 하나님 행세를 합니다. 모세가 그랬습니다.",
+        "ask": [
+          "내가 계속 거절하고 있는 부르심이 있습니까? 이유는 겸손입니까, 두려움입니까?",
+          "지쳐서 사람들에게 화를 낼 때, 나는 누구의 영광을 가로채고 있습니까?"
+        ],
+        "read": ["Exodus 2", "Exodus 3", "Exodus 4", "Numbers 20", "Deuteronomy 34:10"]
+      },
+      "en": {
+        "name": "Moses",
+        "epithet": "A murderer who spoke with God face to face",
+        "hook": "He killed a man and buried him in the sand.",
+        "raw": [
+          { "ref": "Exodus 2:12", "say": "He looked this way and that, saw no one, killed the Egyptian and hid him in the sand. That he looked around first tells you he knew." },
+          { "ref": "Exodus 4:13", "say": "At the burning bush, facing a direct call from God, he said: 'Send, I pray thee, by the hand of him whom thou wilt send.' It was his fifth refusal." },
+          { "ref": "Numbers 20:10-11", "say": "'Must we fetch you water out of this rock?' — and he struck it twice in anger. In that sentence he took God's glory for himself." },
+          { "ref": "Numbers 20:12", "say": "It cost him the promised land. Forty years of leading, and he stopped at the door." }
+        ],
+        "turn": { "ref": "Exodus 33:18", "say": "What he finally asked for was not power or success: 'Shew me thy glory.' A man who had failed still wanted God." },
+        "grace": "God made a fugitive with a killing in his past into a leader — and kept speaking with him face to face after he failed. Calling, not qualification, made the ministry.",
+        "mirror": "We say 'not me' five times too. And when we are worn down, we play God in front of people. So did Moses.",
+        "ask": [
+          "What call am I still refusing — out of humility, or out of fear?",
+          "When exhaustion makes me angry at people, whose glory am I taking?"
+        ],
+        "read": ["Exodus 2", "Exodus 3", "Exodus 4", "Numbers 20", "Deuteronomy 34:10"]
+      }
+    },
+    {
+      "id": "aaron",
+      "era": "exodus",
+      "ko": {
+        "name": "아론",
+        "epithet": "금송아지를 만든 대제사장",
+        "hook": "이스라엘 최초의 대제사장이 최초의 우상을 만들었습니다.",
+        "raw": [
+          { "ref": "Exodus 32:2-4", "say": "백성이 요구하자 그는 거절하지 않았습니다. 금을 모아 송아지를 부어 만들었습니다. 지도자가 여론을 따라간 것입니다." },
+          { "ref": "Exodus 32:5", "say": "그리고 그 우상 앞에 단을 쌓고 '내일은 여호와의 절일이니라' 선포했습니다. 우상숭배에 하나님의 이름을 붙였습니다." },
+          { "ref": "Exodus 32:24", "say": "모세가 묻자 그의 대답은 이랬습니다. '내가 불에 던졌더니 이 송아지가 나왔나이다.' 성경에서 가장 유명한 책임 회피입니다." }
+        ],
+        "turn": { "ref": "Numbers 16:48", "say": "훗날 재앙이 퍼질 때, 그는 향로를 들고 '죽은 자와 산 자 사이에 섰습니다.' 우상을 만들던 손이 중보하는 손이 되었습니다." },
+        "grace": "하나님은 그를 제사장직에서 파면하지 않으셨습니다. 오히려 그 직분을 통해 다른 이들을 위해 서게 하셨습니다.",
+        "mirror": "우리도 사람들이 원하는 것을 주고 나서 거기에 신앙의 이름을 붙입니다. 그리고 들키면 '어쩌다 그렇게 됐다'고 합니다.",
+        "ask": [
+          "사람들의 기대에 밀려 타협해 놓고 그것을 '사역'이라 부른 적이 있습니까?",
+          "'어쩌다 그렇게 됐습니다'라고 말한 일 중, 사실은 내가 선택한 것은 무엇입니까?"
+        ],
+        "read": ["Exodus 32", "Numbers 16", "Hebrews 5:1-3"]
+      },
+      "en": {
+        "name": "Aaron",
+        "epithet": "The high priest who made the golden calf",
+        "hook": "Israel's first high priest made Israel's first idol.",
+        "raw": [
+          { "ref": "Exodus 32:2-4", "say": "When the people demanded it, he did not refuse. He collected the gold and cast the calf. A leader following the crowd." },
+          { "ref": "Exodus 32:5", "say": "Then he built an altar before it and announced, 'To morrow is a feast to the LORD.' He put God's name on idolatry." },
+          { "ref": "Exodus 32:24", "say": "Asked by Moses, he answered: 'I cast it into the fire, and there came out this calf.' The most famous dodge in Scripture." }
+        ],
+        "turn": { "ref": "Numbers 16:48", "say": "Later, as plague spread, he took a censer and 'stood between the dead and the living.' The hands that shaped an idol became hands that interceded." },
+        "grace": "God did not strip him of the priesthood. He kept him in it, and used that office to make him stand for others.",
+        "mirror": "We hand people what they want and then baptize it with religious language. Caught, we say it just sort of happened.",
+        "ask": [
+          "Where have I compromised under pressure and called it ministry?",
+          "What did I describe as 'it just happened' that I actually chose?"
+        ],
+        "read": ["Exodus 32", "Numbers 16", "Hebrews 5:1-3"]
+      }
+    },
+    {
+      "id": "rahab",
+      "era": "conquest",
+      "ko": {
+        "name": "라합",
+        "epithet": "기생",
+        "hook": "성경은 그를 소개할 때 직업을 숨기지 않습니다.",
+        "raw": [
+          { "ref": "Joshua 2:1", "say": "'기생 라합의 집에 들어가.' 성경은 완곡하게 말하지 않습니다. 그의 이름 앞에는 늘 이 단어가 붙습니다." },
+          { "ref": "Joshua 2:4-5", "say": "그리고 그는 왕의 사람들에게 거짓말을 했습니다. 이 이야기의 영웅은 성인군자가 아니라, 살아남는 법을 아는 이방 여인이었습니다." }
+        ],
+        "turn": { "ref": "Joshua 2:11", "say": "'너희 하나님 여호와는 상천하지에 하나님이시니라.' 이스라엘 백성보다 먼저, 여리고의 기생이 이 고백을 했습니다." },
+        "grace": "그는 개과천선한 뒤에 받아들여진 것이 아닙니다. 있는 그대로의 자리에서 붉은 줄을 창에 매달았고, 그것으로 충분했습니다. 그리고 그는 다윗의 조상, 예수의 조상이 됩니다.",
+        "mirror": "'내 과거가 이래서 안 됩니다'라고 말할 때, 성경은 라합을 예수의 족보 안에 넣어 답합니다. 그의 직업은 지워지지 않았고, 그의 자리도 빼앗기지 않았습니다.",
+        "ask": [
+          "내 과거의 어떤 부분이 하나님께 나아가는 것을 막고 있다고 느낍니까?",
+          "라합의 이름표가 끝까지 '기생'이었다는 사실이 나에게 무엇을 말합니까?"
+        ],
+        "read": ["Joshua 2", "Joshua 6:22-25", "Matthew 1:5", "Hebrews 11:31", "James 2:25"]
+      },
+      "en": {
+        "name": "Rahab",
+        "epithet": "The prostitute",
+        "hook": "Scripture never hides her job when it introduces her.",
+        "raw": [
+          { "ref": "Joshua 2:1", "say": "'Came into an harlot's house, named Rahab.' No euphemism. The word travels with her name." },
+          { "ref": "Joshua 2:4-5", "say": "And she lied to the king's men. The hero of this story is not a saint but a foreign woman who knew how to survive." }
+        ],
+        "turn": { "ref": "Joshua 2:11", "say": "'The LORD your God, he is God in heaven above, and in earth beneath.' A prostitute in Jericho made that confession before Israel did." },
+        "grace": "She was not accepted after cleaning up. She tied a scarlet cord in her window exactly as she was, and it was enough. She becomes an ancestor of David — and of Jesus.",
+        "mirror": "When we say 'my past disqualifies me,' Scripture answers by putting Rahab in the genealogy of Christ. Her label was never erased, and her place was never revoked.",
+        "ask": [
+          "Which part of my past feels like it bars me from approaching God?",
+          "What does it mean that Rahab is still called 'the harlot' — and still listed among the faithful?"
+        ],
+        "read": ["Joshua 2", "Joshua 6:22-25", "Matthew 1:5", "Hebrews 11:31", "James 2:25"]
+      }
+    },
+    {
+      "id": "gideon",
+      "era": "judges",
+      "ko": {
+        "name": "기드온",
+        "epithet": "증거를 두 번 요구한 용사",
+        "hook": "'큰 용사여'라는 부름을 받았을 때, 그는 숨어 있었습니다.",
+        "raw": [
+          { "ref": "Judges 6:15", "say": "'내 집은 므낫세 중에 극히 약하고 나는 내 아비 집에서 제일 작은 자니이다.' 겸손처럼 들리지만, 그는 부르심을 밀어내고 있었습니다." },
+          { "ref": "Judges 6:36-37", "say": "이미 하나님이 말씀하셨는데도 그는 양털로 증거를 구했습니다." },
+          { "ref": "Judges 6:39", "say": "그리고 반대로 한 번 더 요구했습니다. 하나님의 약속만으로는 부족했던 것입니다." },
+          { "ref": "Judges 8:27", "say": "승리한 뒤에는 금으로 에봇을 만들었고, 그것이 온 이스라엘의 올무가 되었습니다. 그의 최악의 실수는 실패한 날이 아니라 이긴 날에 나왔습니다." }
+        ],
+        "turn": { "ref": "Judges 7:2", "say": "하나님은 군대를 삼만에서 삼백으로 줄이셨습니다. 이유는 분명했습니다 — '이스라엘이 나를 거스려 자긍하기를 내 손이 나를 구원하였다 할까 함이니라.'" },
+        "grace": "하나님은 그의 의심에 화내지 않고 양털을 두 번 다 적셔주셨습니다. 그리고 그가 자만할까 봐 군대를 줄여 그를 지켜주셨습니다.",
+        "mirror": "우리는 확신이 없어서 계속 표적을 구합니다. 그리고 정작 잘 되기 시작하면 그때 무너집니다. 기드온이 그랬습니다.",
+        "ask": [
+          "하나님의 말씀보다 상황의 증거를 더 신뢰하고 있지 않습니까?",
+          "나는 실패할 때보다 성공할 때 더 위험한 사람입니까?"
+        ],
+        "read": ["Judges 6", "Judges 7", "Judges 8:22-27", "Hebrews 11:32"]
+      },
+      "en": {
+        "name": "Gideon",
+        "epithet": "The warrior who asked for proof twice",
+        "hook": "When he was called 'mighty man of valour,' he was hiding.",
+        "raw": [
+          { "ref": "Judges 6:15", "say": "'My family is poor in Manasseh, and I am the least in my father's house.' It sounds like humility; he was pushing the call away." },
+          { "ref": "Judges 6:36-37", "say": "God had already spoken, and he still asked for a sign with the fleece." },
+          { "ref": "Judges 6:39", "say": "Then he asked for the reverse sign. God's promise by itself was not enough for him." },
+          { "ref": "Judges 8:27", "say": "After the victory he made an ephod of gold, and it became a snare to all Israel. His worst mistake came on the day he won, not the day he lost." }
+        ],
+        "turn": { "ref": "Judges 7:2", "say": "God cut the army from thirty-two thousand to three hundred, and said why: 'lest Israel vaunt themselves against me, saying, Mine own hand hath saved me.'" },
+        "grace": "God did not rage at his doubt. He soaked the fleece both times. Then He shrank the army to protect Gideon from his own pride.",
+        "mirror": "We keep asking for signs because we are not sure. And when things finally go well, that is when we fall. So did Gideon.",
+        "ask": [
+          "Am I trusting circumstantial evidence more than what God has said?",
+          "Am I more dangerous in success than in failure?"
+        ],
+        "read": ["Judges 6", "Judges 7", "Judges 8:22-27", "Hebrews 11:32"]
+      }
+    },
+    {
+      "id": "samson",
+      "era": "judges",
+      "ko": {
+        "name": "삼손",
+        "epithet": "서원을 전부 어긴 나실인",
+        "hook": "그는 자기 힘의 근원을 농담거리로 만들었습니다.",
+        "raw": [
+          { "ref": "Judges 14:2", "say": "'내가 블레셋 사람의 딸 중에서 한 여자를 보았사오니 이제 그를 취하여 내 아내를 삼게 하소서.' 그의 판단 기준은 처음부터 끝까지 '내가 보았다'였습니다." },
+          { "ref": "Judges 16:1", "say": "가사에 가서 기생을 보고 그에게로 들어갔습니다. 사사이자 나실인이 그랬습니다." },
+          { "ref": "Judges 16:16-17", "say": "들릴라가 날마다 조르자 '마음이 번뇌하여 죽을 지경이라' 결국 다 털어놓았습니다. 그는 협박이 아니라 피곤함에 무너졌습니다." },
+          { "ref": "Judges 16:20", "say": "가장 무서운 구절입니다. '여호와께서 이미 자기를 떠나신 줄을 깨닫지 못하였더라.' 그는 잃은 줄도 몰랐습니다." }
+        ],
+        "turn": { "ref": "Judges 16:28", "say": "눈이 뽑히고 맷돌을 돌리던 자리에서 그는 처음으로 기도합니다. '주 여호와여 구하옵나니 나를 생각하옵소서.' 그의 첫 기도는 모든 것을 잃은 뒤에 나왔습니다." },
+        "grace": "하나님은 그 기도를 들으셨습니다. 그리고 히브리서 11장 믿음의 명단에 그의 이름이 있습니다. 그의 삶은 정리되지 않았지만, 그는 버려지지 않았습니다.",
+        "mirror": "우리도 서서히 무너집니다. 한 번의 결단이 아니라 반복된 피곤함으로. 그리고 무엇을 잃었는지 한참 뒤에야 압니다.",
+        "ask": [
+          "'깨닫지 못하였더라' — 지금 내가 잃고 있는데 모르고 있는 것은 무엇입니까?",
+          "나는 위협보다 피곤함에 더 잘 무너지지 않습니까?"
+        ],
+        "read": ["Judges 13", "Judges 14", "Judges 16", "Hebrews 11:32"]
+      },
+      "en": {
+        "name": "Samson",
+        "epithet": "A Nazirite who broke every vow",
+        "hook": "He turned the source of his strength into a party game.",
+        "raw": [
+          { "ref": "Judges 14:2", "say": "'I have seen a woman in Timnath of the daughters of the Philistines: now therefore get her for me to wife.' From first to last his criterion was 'I have seen.'" },
+          { "ref": "Judges 16:1", "say": "He went to Gaza, saw a prostitute, and went in to her. A judge of Israel and a Nazirite." },
+          { "ref": "Judges 16:16-17", "say": "Delilah pressed him daily until 'his soul was vexed unto death,' and he told her everything. He collapsed from exhaustion, not from threat." },
+          { "ref": "Judges 16:20", "say": "The most terrifying line in his story: 'he wist not that the LORD was departed from him.' He did not know he had lost it." }
+        ],
+        "turn": { "ref": "Judges 16:28", "say": "Blind, grinding at the mill, he prays for the first time: 'O Lord GOD, remember me, I pray thee.' His first prayer came after he had lost everything." },
+        "grace": "God heard that prayer. And his name stands in the roll of faith in Hebrews 11. His life was never tidied up, but he was not discarded.",
+        "mirror": "We erode slowly too — not by one decision but by repeated tiredness. And we learn what we lost long after losing it.",
+        "ask": [
+          "'He wist not' — what am I losing right now without noticing?",
+          "Do I break more easily under fatigue than under threat?"
+        ],
+        "read": ["Judges 13", "Judges 14", "Judges 16", "Hebrews 11:32"]
+      }
+    },
+    {
+      "id": "david",
+      "era": "kingdom",
+      "ko": {
+        "name": "다윗",
+        "epithet": "하나님의 마음에 합한 자, 그리고 간음자·살인교사자",
+        "hook": "성경은 그를 미화하지 않습니다. 전부 기록합니다.",
+        "raw": [
+          { "ref": "II Samuel 11:2-4", "say": "왕이 나가 싸울 때에 그는 왕궁 옥상을 거닐다가 목욕하는 여인을 보았고, 사람을 보내어 데려오게 했습니다. 권력을 사용해 한 사람을 취한 것입니다." },
+          { "ref": "II Samuel 11:14-15", "say": "그리고 임신 소식을 듣자, 그 여인의 남편에게 자기 사형 집행 명령서를 들려 보냈습니다. '너희는 우리아를 맹렬한 싸움에 앞세워 두고 뒤로 물러가서 그로 맞아 죽게 하라.'" },
+          { "ref": "II Samuel 12:7", "say": "나단이 비유를 말하자 다윗은 그 부자에게 분노했습니다. 나단이 말했습니다. '당신이 그 사람이라.' 그는 남의 죄에는 즉시 판결을 내렸습니다." },
+          { "ref": "II Samuel 13:21", "say": "아버지로서도 실패했습니다. 딸이 당한 일을 듣고 '심히 노하니라' — 그러나 아무것도 하지 않았습니다. 분노만 있고 행동이 없었습니다." }
+        ],
+        "turn": { "ref": "Psalms 51:4", "say": "'내가 주께만 범죄하여 주의 목전에 악을 행하였사오니.' 그는 변명하지 않았고, 상황 탓을 하지 않았습니다. 이 시편은 왕의 자백이 공문서가 된 유일한 경우입니다." },
+        "grace": "죄의 결과는 남았습니다. 아이는 죽었고 그의 집은 칼을 벗어나지 못했습니다. 그런데도 하나님은 그를 버리지 않으셨고, 그의 자손에서 메시아가 나셨습니다. 용서는 결과를 지우지 않지만 관계를 끊지도 않습니다.",
+        "mirror": "우리는 다윗의 시편으로 예배하면서 다윗의 죄는 건너뜁니다. 그러나 시편 51편은 죄 없는 사람의 노래가 아니라, 최악을 저지른 사람의 노래입니다.",
+        "ask": [
+          "'당신이 그 사람이라' — 내가 남에게 분노한 그 죄를 나는 어떻게 다루고 있습니까?",
+          "분노는 있는데 행동이 없는 자리가 내 삶에 있습니까?"
+        ],
+        "read": ["II Samuel 11", "II Samuel 12", "Psalms 51", "Psalms 32"]
+      },
+      "en": {
+        "name": "David",
+        "epithet": "A man after God's own heart — adulterer, and arranger of a murder",
+        "hook": "Scripture does not clean him up. It records all of it.",
+        "raw": [
+          { "ref": "II Samuel 11:2-4", "say": "At the time kings go out to battle, he walked on the palace roof, saw a woman bathing, and sent and took her. He used power to take a person." },
+          { "ref": "II Samuel 11:14-15", "say": "Told she was pregnant, he sent her husband carrying his own death warrant: 'Set ye Uriah in the forefront of the hottest battle, and retire ye from him, that he may be smitten, and die.'" },
+          { "ref": "II Samuel 12:7", "say": "When Nathan told the parable, David burned with anger at the rich man. Nathan said, 'Thou art the man.' He passed instant judgment on someone else's sin." },
+          { "ref": "II Samuel 13:21", "say": "He failed as a father too. Hearing what happened to his daughter, he 'was very wroth' — and did nothing. Anger without action." }
+        ],
+        "turn": { "ref": "Psalms 51:4", "say": "'Against thee, thee only, have I sinned, and done this evil in thy sight.' No excuse, no blaming circumstance. This psalm is the only case of a king's confession becoming a public document." },
+        "grace": "The consequences stayed. The child died; the sword never left his house. And still God did not discard him, and the Messiah came from his line. Forgiveness does not erase consequences, and consequences do not sever the relationship.",
+        "mirror": "We worship with David's psalms and skip David's sin. But Psalm 51 is not the song of an innocent man — it is the song of a man who did the worst.",
+        "ask": [
+          "'Thou art the man' — how am I handling the very sin that makes me angry at others?",
+          "Where in my life is there anger but no action?"
+        ],
+        "read": ["II Samuel 11", "II Samuel 12", "Psalms 51", "Psalms 32"]
+      }
+    },
+    {
+      "id": "solomon",
+      "era": "kingdom",
+      "ko": {
+        "name": "솔로몬",
+        "epithet": "가장 지혜로웠고 가장 어리석었던 왕",
+        "hook": "지혜를 구해서 받은 사람이, 그 지혜로도 자기를 지키지 못했습니다.",
+        "raw": [
+          { "ref": "I Kings 11:1-2", "say": "하나님이 함께하지 말라고 명하신 민족의 여인들을 '연애하였더라'고 성경은 기록합니다. 그는 몰라서가 아니라 알고도 그랬습니다." },
+          { "ref": "I Kings 11:3", "say": "후궁이 칠백, 빈장이 삼백이었고, '그의 마음을 돌이켰더라'." },
+          { "ref": "I Kings 11:4", "say": "'솔로몬의 나이 늙을 때에 왕비들이 그 마음을 돌이켜 다른 신들을 좇게 하였으므로.' 젊을 때가 아니라 늙어서 무너졌습니다." }
+        ],
+        "turn": { "ref": "Ecclesiastes 1:14", "say": "모든 것을 가져본 사람의 결론은 이것이었습니다. '모든 것이 헛되어 바람을 잡으려는 것이로다.' 이것은 실패자의 푸념이 아니라 다 가져본 사람의 보고서입니다." },
+        "grace": "그의 전도서는 경고로 성경에 남았습니다. 하나님은 그의 무너짐조차 다음 세대를 가르치는 데 쓰셨습니다.",
+        "mirror": "지식이 사람을 지켜주지 않습니다. 우리도 아는 대로 살지 못합니다. 솔로몬은 그 사실의 가장 큰 증거입니다.",
+        "ask": [
+          "내가 '알고 있는 것'과 '살고 있는 것'의 차이는 얼마나 큽니까?",
+          "나는 젊을 때보다 지금 더 하나님께 가까이 있습니까?"
+        ],
+        "read": ["I Kings 3", "I Kings 11", "Ecclesiastes 1", "Ecclesiastes 12:13"]
+      },
+      "en": {
+        "name": "Solomon",
+        "epithet": "The wisest king, and the most foolish",
+        "hook": "A man who asked for wisdom and got it could not use it to keep himself.",
+        "raw": [
+          { "ref": "I Kings 11:1-2", "say": "Scripture says he 'clave unto these in love' — women from the very nations God had told him not to join. He did not do it in ignorance." },
+          { "ref": "I Kings 11:3", "say": "Seven hundred wives, three hundred concubines, 'and his wives turned away his heart.'" },
+          { "ref": "I Kings 11:4", "say": "'When Solomon was old, that his wives turned away his heart after other gods.' He fell in old age, not in youth." }
+        ],
+        "turn": { "ref": "Ecclesiastes 1:14", "say": "The verdict of a man who had everything: 'all is vanity and vexation of spirit.' Not the griping of a failure — the report of someone who tried it all." },
+        "grace": "Ecclesiastes stayed in the canon as a warning. God used even his collapse to teach the generations after him.",
+        "mirror": "Knowledge does not protect anyone. We do not live up to what we already know. Solomon is the largest piece of evidence for that.",
+        "ask": [
+          "How wide is the gap between what I know and how I live?",
+          "Am I closer to God now than I was when I was younger?"
+        ],
+        "read": ["I Kings 3", "I Kings 11", "Ecclesiastes 1", "Ecclesiastes 12:13"]
+      }
+    },
+    {
+      "id": "elijah",
+      "era": "prophets",
+      "ko": {
+        "name": "엘리야",
+        "epithet": "가장 큰 승리 다음 날 죽기를 구한 선지자",
+        "hook": "불이 내린 다음 날, 그는 죽여 달라고 기도했습니다.",
+        "raw": [
+          { "ref": "I Kings 19:3", "say": "이세벨의 말 한마디에 그는 '자기 생명을 위하여 도망하여' 갔습니다. 바알 선지자 사백오십 명 앞에서는 서 있던 사람이었습니다." },
+          { "ref": "I Kings 19:4", "say": "로뎀나무 아래 앉아 죽기를 구했습니다. '여호와여 넉넉하오니 지금 내 생명을 취하옵소서 나는 내 열조보다 낫지 못하니이다.'" },
+          { "ref": "I Kings 19:10", "say": "'오직 나만 남았거늘.' 그는 사실과 다르게 인식하고 있었습니다. 우울은 그의 눈에 그렇게 보이게 만들었습니다." }
+        ],
+        "turn": { "ref": "I Kings 19:5", "say": "하나님의 첫 응답은 책망도 설교도 아니었습니다. 천사가 그를 어루만지며 먹으라고 했습니다. 하나님은 먼저 그를 재우고 먹이셨습니다." },
+        "grace": "그리고 세미한 소리로 말씀하셨고, '오직 나만'이 사실이 아님을 알려주셨습니다. 하나님은 그의 감정을 무시하지도, 그 말을 그대로 두지도 않으셨습니다.",
+        "mirror": "야고보서는 그를 '우리와 성정이 같은 사람'이라고 부릅니다. 우울과 탈진은 믿음 없음의 증거가 아닙니다. 엘리야가 그 자리에 있었습니다.",
+        "ask": [
+          "가장 큰 일을 해낸 뒤에 오히려 무너진 경험이 있습니까?",
+          "지금 나에게 필요한 것은 더 강한 결심입니까, 아니면 잠과 음식입니까?"
+        ],
+        "read": ["I Kings 18", "I Kings 19", "James 5:17"]
+      },
+      "en": {
+        "name": "Elijah",
+        "epithet": "The prophet who asked to die the day after his greatest victory",
+        "hook": "The day after fire fell from heaven, he prayed to die.",
+        "raw": [
+          { "ref": "I Kings 19:3", "say": "One message from Jezebel and he 'went for his life.' This was the man who had just stood alone against four hundred and fifty prophets of Baal." },
+          { "ref": "I Kings 19:4", "say": "Under a juniper tree he asked to die: 'It is enough; now, O LORD, take away my life; for I am not better than my fathers.'" },
+          { "ref": "I Kings 19:10", "say": "'I, even I only, am left.' It was not true. Despair made it look that way to him." }
+        ],
+        "turn": { "ref": "I Kings 19:5", "say": "God's first response was not rebuke or a sermon. An angel touched him and told him to eat. God let him sleep and fed him first." },
+        "grace": "Then came the still small voice, and the correction that 'only I' was false. God neither dismissed his feelings nor left his words standing.",
+        "mirror": "James calls him 'a man subject to like passions as we are.' Depression and burnout are not evidence of missing faith. Elijah was there.",
+        "ask": [
+          "Have I collapsed right after the biggest thing I ever did?",
+          "Does this moment call for stronger resolve — or for sleep and food?"
+        ],
+        "read": ["I Kings 18", "I Kings 19", "James 5:17"]
+      }
+    },
+    {
+      "id": "jonah",
+      "era": "prophets",
+      "ko": {
+        "name": "요나",
+        "epithet": "하나님이 용서하셨다고 화를 낸 선지자",
+        "hook": "그의 문제는 하나님이 벌하실까 봐가 아니라, 용서하실까 봐였습니다.",
+        "raw": [
+          { "ref": "Jonah 1:3", "say": "부르심을 듣고 그는 정반대 방향으로 가는 배를 탔습니다. '여호와의 낯을 피하려고.'" },
+          { "ref": "Jonah 4:1", "say": "니느웨가 회개하고 하나님이 재앙을 내리지 않으시자, 그는 '심히 싫어하고 노하여' 했습니다. 부흥이 그를 화나게 했습니다." },
+          { "ref": "Jonah 4:2", "say": "그리고 이유를 밝힙니다. 하나님이 은혜롭고 자비로우신 줄 알았기 때문에 도망갔다는 것입니다. 그는 하나님의 성품이 싫었습니다." },
+          { "ref": "Jonah 4:3", "say": "'내 생명을 취하소서 사는 것보다 죽는 것이 내게 나으니이다.' 원수가 용서받느니 죽겠다는 것입니다." }
+        ],
+        "turn": { "ref": "Jonah 4:11", "say": "책은 요나의 회개로 끝나지 않습니다. 하나님의 질문으로 끝납니다. '내가 어찌 아끼지 아니하겠느냐.' 독자가 대답해야 할 질문으로 남겨둔 것입니다." },
+        "grace": "성경은 요나가 마음을 고쳤는지 알려주지 않습니다. 그런데도 그의 책은 정경에 있습니다. 하나님은 아직 화가 나 있는 종의 이야기를 그대로 남기셨습니다.",
+        "mirror": "우리도 어떤 사람은 용서받지 않기를 바랍니다. 요나는 그 마음을 숨기지 않고 하나님께 말한 사람입니다.",
+        "ask": [
+          "내가 하나님의 은혜를 받기를 원하지 않는 사람이 있습니까?",
+          "하나님이 그를 아끼시는 것이 나에게 왜 불편합니까?"
+        ],
+        "read": ["Jonah 1", "Jonah 3", "Jonah 4", "Matthew 12:39-41"]
+      },
+      "en": {
+        "name": "Jonah",
+        "epithet": "The prophet who was angry that God forgave",
+        "hook": "His problem was not that God might punish, but that God might forgive.",
+        "raw": [
+          { "ref": "Jonah 1:3", "say": "He heard the call and boarded a ship going the opposite direction, 'from the presence of the LORD.'" },
+          { "ref": "Jonah 4:1", "say": "When Nineveh repented and God relented, 'it displeased Jonah exceedingly, and he was very angry.' Revival made him furious." },
+          { "ref": "Jonah 4:2", "say": "Then he gives his reason: he fled precisely because he knew God was gracious and merciful. He disliked God's character." },
+          { "ref": "Jonah 4:3", "say": "'Take, I beseech thee, my life from me; for it is better for me to die than to live.' He would rather die than watch his enemies pardoned." }
+        ],
+        "turn": { "ref": "Jonah 4:11", "say": "The book does not end with Jonah repenting. It ends with God's question: 'And should not I spare Nineveh?' Left open for the reader to answer." },
+        "grace": "Scripture never tells us whether Jonah changed his mind. His book is in the canon anyway. God kept the story of a servant who was still angry.",
+        "mirror": "We too hope certain people are not forgiven. Jonah is the man who said that out loud to God instead of hiding it.",
+        "ask": [
+          "Is there someone I do not want God's grace to reach?",
+          "Why does it unsettle me that God cares about them?"
+        ],
+        "read": ["Jonah 1", "Jonah 3", "Jonah 4", "Matthew 12:39-41"]
+      }
+    },
+    {
+      "id": "peter",
+      "era": "gospels",
+      "ko": {
+        "name": "베드로",
+        "epithet": "저주하며 예수를 부인한 수제자",
+        "hook": "그는 맹세하고 저주하면서 예수를 모른다고 했습니다.",
+        "raw": [
+          { "ref": "Matthew 16:23", "say": "'주여 그리 마옵소서' — 그리스도를 고백한 직후, 그는 십자가를 막아섰고 '사단아 내 뒤로 물러가라'는 말을 들었습니다. 최고의 고백과 최악의 책망이 몇 절 사이입니다." },
+          { "ref": "Mark 14:71", "say": "'저주하며 맹세하되 나는 너희의 말하는 이 사람을 알지 못하노라.' 부인이 아니라 저주였습니다. 세 번째였습니다." },
+          { "ref": "Galatians 2:12", "say": "부활을 보고 성령을 받고 교회의 기둥이 된 뒤에도, 그는 사람들의 눈이 두려워 이방인들과 먹던 자리에서 물러갔습니다. 겁은 완전히 사라지지 않았습니다." }
+        ],
+        "turn": { "ref": "John 21:17", "say": "예수님은 그를 세 번 물으셨습니다. 세 번 부인한 자리를 세 번의 질문으로 덮으신 것입니다. 그리고 책망 대신 '내 양을 먹이라'는 임무를 주셨습니다." },
+        "grace": "회복은 그가 충분히 뉘우친 뒤에 온 것이 아닙니다. 예수님이 먼저 불을 피우고 아침을 준비해 놓으셨습니다. 은혜가 언제나 먼저 도착합니다.",
+        "mirror": "우리도 뜨겁게 고백하고 결정적인 순간에 물러섭니다. 그리고 회복된 뒤에도 또 눈치를 봅니다. 베드로가 그랬고, 그는 여전히 사도였습니다.",
+        "ask": [
+          "내가 예수를 모른다고 한 자리는 어디였습니까? 말로가 아니라 침묵으로.",
+          "실패 뒤에 나는 회복을 기다립니까, 아니면 스스로 자격을 박탈합니까?"
+        ],
+        "read": ["Matthew 16:13-23", "Mark 14:66-72", "John 21:15-19", "Galatians 2:11-14"]
+      },
+      "en": {
+        "name": "Peter",
+        "epithet": "The chief disciple who denied Christ with curses",
+        "hook": "He swore and cursed that he did not know Jesus.",
+        "raw": [
+          { "ref": "Matthew 16:23", "say": "'Be it far from thee, Lord' — moments after confessing the Christ, he blocked the cross and heard, 'Get thee behind me, Satan.' Highest confession and harshest rebuke, verses apart." },
+          { "ref": "Mark 14:71", "say": "'He began to curse and to swear, saying, I know not this man of whom ye speak.' Not merely denial — cursing. It was the third time." },
+          { "ref": "Galatians 2:12", "say": "Even after the resurrection, Pentecost, and becoming a pillar of the church, he withdrew from eating with Gentiles because he feared what people thought. The fear never fully left." }
+        ],
+        "turn": { "ref": "John 21:17", "say": "Jesus asked him three times — covering three denials with three questions. And instead of a reprimand, He handed him a job: 'Feed my sheep.'" },
+        "grace": "Restoration did not wait until he had grieved enough. Jesus had already built the fire and made breakfast. Grace always arrives first.",
+        "mirror": "We confess passionately and step back at the decisive moment. And after being restored we still read the room. Peter did, and he was still an apostle.",
+        "ask": [
+          "Where have I denied Christ — not by words, but by silence?",
+          "After failure, do I wait for restoration, or disqualify myself?"
+        ],
+        "read": ["Matthew 16:13-23", "Mark 14:66-72", "John 21:15-19", "Galatians 2:11-14"]
+      }
+    },
+    {
+      "id": "paul",
+      "era": "apostles",
+      "ko": {
+        "name": "바울",
+        "epithet": "교회를 죽이던 사람",
+        "hook": "신약의 절반을 쓴 사람은 그리스도인 사형에 찬성표를 던졌습니다.",
+        "raw": [
+          { "ref": "Acts 8:1", "say": "'사울이 그의 죽임 당함을 마땅히 여기더라.' 스데반이 돌에 맞아 죽는 자리에 그가 있었고, 그는 옳다고 여겼습니다." },
+          { "ref": "Acts 9:1", "say": "'주의 제자들을 대하여 여전히 위협과 살기가 등등하여.' 이것이 회심 직전 그의 상태입니다." },
+          { "ref": "Acts 15:39", "say": "사도가 된 뒤에도 바나바와 '심히 다투어 피차 갈라서니'. 성령 충만한 두 사람이 갈라섰습니다. 성화는 성격을 즉시 고쳐주지 않았습니다." },
+          { "ref": "Romans 7:19", "say": "'내가 원하는 바 선은 하지 아니하고 도리어 원치 아니하는 바 악을 행하는도다.' 이것은 회심 전의 회고가 아니라 현재형 고백입니다." }
+        ],
+        "turn": { "ref": "I Timothy 1:15", "say": "'죄인 중에 내가 괴수니라.' 현재형입니다. 오래 믿을수록 그는 자기를 더 나은 사람이 아니라 더 큰 죄인으로 보았습니다." },
+        "grace": "하나님은 그의 과거를 지우지 않고 자격증으로 바꾸셨습니다. 박해자였기 때문에 그는 은혜를 설명할 수 있었습니다.",
+        "mirror": "'나는 아직도 똑같습니다'라고 느낀다면, 로마서 7장을 쓴 사람도 그랬습니다. 그것이 실패의 증거가 아니라 정직의 증거일 수 있습니다.",
+        "ask": [
+          "믿음의 연차가 쌓일수록 나는 나를 더 낫게 봅니까, 더 정직하게 봅니까?",
+          "내 과거 중 하나님이 사용하실 수 없다고 생각하는 부분은 무엇입니까?"
+        ],
+        "read": ["Acts 9", "Romans 7", "I Corinthians 15:9-10", "I Timothy 1:12-16"]
+      },
+      "en": {
+        "name": "Paul",
+        "epithet": "The man who killed Christians",
+        "hook": "The author of half the New Testament voted for a Christian's execution.",
+        "raw": [
+          { "ref": "Acts 8:1", "say": "'And Saul was consenting unto his death.' He was standing there while Stephen was stoned, and he approved." },
+          { "ref": "Acts 9:1", "say": "'Yet breathing out threatenings and slaughter against the disciples of the Lord.' That is his condition moments before conversion." },
+          { "ref": "Acts 15:39", "say": "Even as an apostle, 'the contention was so sharp between them, that they departed asunder.' Two Spirit-filled men split up. Sanctification did not instantly fix his temperament." },
+          { "ref": "Romans 7:19", "say": "'For the good that I would I do not: but the evil which I would not, that I do.' Not a memory of his old life — present tense." }
+        ],
+        "turn": { "ref": "I Timothy 1:15", "say": "'Sinners; of whom I am chief.' Present tense again. The longer he walked with God, the more he saw himself not as improved but as the worst." },
+        "grace": "God did not erase his past; He turned it into credentials. Because he had been a persecutor, he could explain grace.",
+        "mirror": "If you feel 'I am still exactly the same,' so did the man who wrote Romans 7. That may be evidence of honesty rather than failure.",
+        "ask": [
+          "As the years pass, do I see myself as better — or more honestly?",
+          "What part of my past do I assume God cannot use?"
+        ],
+        "read": ["Acts 9", "Romans 7", "I Corinthians 15:9-10", "I Timothy 1:12-16"]
+      }
+    },
+    {
+      "id": "thomas",
+      "era": "gospels",
+      "ko": {
+        "name": "도마",
+        "epithet": "증거를 요구한 제자",
+        "hook": "그는 다른 제자 열 명의 증언을 믿지 않았습니다.",
+        "raw": [
+          { "ref": "John 20:25", "say": "'내가 그 손의 못자국을 보며 내 손가락을 그 못자국에 넣으며 내 손을 그 옆구리에 넣어 보지 않고는 믿지 아니하겠노라.' 그는 조건을 걸었습니다." }
+        ],
+        "turn": { "ref": "John 20:27", "say": "예수님은 그를 책망하지 않고 그의 조건을 그대로 들어주셨습니다. '네 손가락을 이리 내밀어 내 손을 보고.' 의심하는 사람에게 증거를 주신 것입니다." },
+        "grace": "그리고 도마는 복음서에서 가장 완전한 고백을 합니다. '나의 주시며 나의 하나님이시니이다.' 가장 의심했던 사람이 가장 높은 고백을 남겼습니다.",
+        "mirror": "의심은 불신앙과 다릅니다. 도마는 떠나지 않고 그 자리에 남아서 의심했습니다. 그래서 만났습니다.",
+        "ask": [
+          "나는 의심을 하나님께 가지고 갑니까, 아니면 의심 때문에 자리를 뜹니까?",
+          "내가 믿기 위해 걸고 있는 조건은 무엇입니까?"
+        ],
+        "read": ["John 11:16", "John 20:24-29"]
+      },
+      "en": {
+        "name": "Thomas",
+        "epithet": "The disciple who demanded evidence",
+        "hook": "He did not believe ten other eyewitnesses.",
+        "raw": [
+          { "ref": "John 20:25", "say": "'Except I shall see in his hands the print of the nails, and put my finger into the print of the nails, and thrust my hand into his side, I will not believe.' He set conditions." }
+        ],
+        "turn": { "ref": "John 20:27", "say": "Jesus did not scold him. He met the conditions exactly: 'Reach hither thy finger, and behold my hands.' He gave the doubter evidence." },
+        "grace": "And Thomas makes the fullest confession in the Gospels: 'My Lord and my God.' The one who doubted most produced the highest confession.",
+        "mirror": "Doubt is not the same as unbelief. Thomas doubted without leaving the room — which is why he met the risen Christ.",
+        "ask": [
+          "Do I bring my doubts to God, or do doubts make me leave?",
+          "What conditions am I setting before I will believe?"
+        ],
+        "read": ["John 11:16", "John 20:24-29"]
+      }
+    },
+    {
+      "id": "samaritan-woman",
+      "era": "gospels",
+      "ko": {
+        "name": "사마리아 여인",
+        "epithet": "남편이 다섯 있었던 여인",
+        "hook": "그는 사람들을 피해 가장 뜨거운 시간에 물을 길으러 왔습니다.",
+        "raw": [
+          { "ref": "John 4:18", "say": "'너에게 남편 다섯이 있었고 지금 있는 자도 네 남편이 아니니.' 예수님은 알고 계셨고, 그것을 말씀하셨습니다. 덮지 않으셨습니다." },
+          { "ref": "John 4:9", "say": "그는 유대인도 아니고 남자도 아니고 존경받는 여자도 아니었습니다. 세 겹으로 대화 자격이 없는 사람이었습니다." }
+        ],
+        "turn": { "ref": "John 4:26", "say": "예수님이 자신을 메시아로 처음 분명히 밝히신 대상이 이 여인이었습니다. 제사장도 학자도 아니고, 다섯 번 결혼한 사마리아 여인이었습니다." },
+        "grace": "그리고 그는 물동이를 버려두고 마을로 달려갑니다. 숨기고 싶던 과거가 그의 간증이 되었습니다.",
+        "mirror": "우리는 사람을 피해 시간을 고릅니다. 예수님은 그 시간에 우물가에 앉아 계셨습니다.",
+        "ask": [
+          "내가 사람을 피하는 시간과 자리는 어디입니까?",
+          "내가 가장 숨기고 싶은 이야기가 누군가에게는 소망일 수 있습니까?"
+        ],
+        "read": ["John 4:1-42"]
+      },
+      "en": {
+        "name": "The Samaritan Woman",
+        "epithet": "She had five husbands",
+        "hook": "She came for water at the hottest hour to avoid people.",
+        "raw": [
+          { "ref": "John 4:18", "say": "'Thou hast had five husbands; and he whom thou now hast is not thy husband.' Jesus knew, and said it. He did not paper over it." },
+          { "ref": "John 4:9", "say": "She was not Jewish, not male, not a respectable woman. Three separate reasons she should not have been spoken to." }
+        ],
+        "turn": { "ref": "John 4:26", "say": "The first person to whom Jesus plainly identified Himself as Messiah was this woman. Not a priest, not a scholar — a five-times-married Samaritan." },
+        "grace": "She left her waterpot and ran to the town. The past she wanted hidden became her testimony.",
+        "mirror": "We schedule our lives to avoid people. Jesus was sitting at the well at exactly that hour.",
+        "ask": [
+          "What time and place do I choose in order to avoid being seen?",
+          "Could the story I most want to hide be someone else's hope?"
+        ],
+        "read": ["John 4:1-42"]
+      }
+    },
+    {
+      "id": "zacchaeus",
+      "era": "gospels",
+      "ko": {
+        "name": "삭개오",
+        "epithet": "동족의 돈을 뜯던 세리장",
+        "hook": "예수님은 마을에서 가장 미움받는 사람의 집에 묵으셨습니다.",
+        "raw": [
+          { "ref": "Luke 19:2", "say": "'세리장이요 또한 부자라.' 그의 부는 로마를 위해 동족에게서 짜낸 돈이었습니다. 그는 합법적인 착취자였습니다." },
+          { "ref": "Luke 19:7", "say": "예수님이 그의 집에 들어가시자 '뭇사람이 보고 수군거려' 했습니다. '죄인의 집에 유하러 들어갔도다.' 사람들의 판단은 정확했습니다 — 그는 정말 죄인이었습니다." }
+        ],
+        "turn": { "ref": "Luke 19:8", "say": "그는 계산했습니다. 재산 절반을 가난한 자에게, 토색한 것은 네 배로. 회개가 회계장부까지 내려간 것입니다." },
+        "grace": "그러나 순서를 보십시오. 예수님이 먼저 '오늘 네 집에 유하여야 하겠다' 하셨고, 그 다음에 삭개오가 갚겠다고 했습니다. 변화는 받아들여짐의 조건이 아니라 결과였습니다.",
+        "mirror": "우리는 먼저 고쳐야 받아들여진다고 생각합니다. 삭개오는 받아들여져서 고쳐졌습니다.",
+        "ask": [
+          "나는 하나님께 받아들여지기 위해 먼저 무엇을 해내려 하고 있습니까?",
+          "내 회개가 손해를 감수하는 지점까지 내려간 적이 있습니까?"
+        ],
+        "read": ["Luke 19:1-10"]
+      },
+      "en": {
+        "name": "Zacchaeus",
+        "epithet": "A chief tax collector who bled his own people",
+        "hook": "Jesus stayed at the house of the most hated man in town.",
+        "raw": [
+          { "ref": "Luke 19:2", "say": "'The chief among the publicans, and he was rich.' His wealth was squeezed from his own countrymen for Rome. A legal extortionist." },
+          { "ref": "Luke 19:7", "say": "When Jesus went in, 'they all murmured, saying, That he was gone to be guest with a man that is a sinner.' The crowd's assessment was accurate — he really was." }
+        ],
+        "turn": { "ref": "Luke 19:8", "say": "He did the math: half his goods to the poor, fourfold restitution for anything taken falsely. Repentance reached his accounting ledger." },
+        "grace": "But note the order. Jesus said 'today I must abide at thy house' first; Zacchaeus offered restitution after. Change was the result of acceptance, not its condition.",
+        "mirror": "We assume we must be fixed before we are received. Zacchaeus was received, and then he was fixed.",
+        "ask": [
+          "What am I trying to accomplish before I let God accept me?",
+          "Has my repentance ever reached the point where it cost me money?"
+        ],
+        "read": ["Luke 19:1-10"]
+      }
+    },
+    {
+      "id": "martha",
+      "era": "gospels",
+      "ko": {
+        "name": "마르다",
+        "epithet": "섬기다가 원망한 사람",
+        "hook": "그는 예수님께 '상관하지 아니하시나이까'라고 따졌습니다.",
+        "raw": [
+          { "ref": "Luke 10:40", "say": "'주여 내 동생이 나 혼자 일하게 두는 것을 생각지 아니하시나이까 저를 명하사 나를 도와주라 하소서.' 그는 예수님을 자기 편으로 만들어 동생을 압박하려 했습니다." },
+          { "ref": "John 11:21", "say": "오라비가 죽은 뒤에는 이렇게 말합니다. '주께서 여기 계셨더면 내 오라비가 죽지 아니하였겠나이다.' 원망이 섞인 믿음이었습니다." }
+        ],
+        "turn": { "ref": "John 11:27", "say": "그런데 바로 그 마르다가 복음서에서 베드로와 같은 고백을 합니다. '주는 그리스도시요 세상에 오시는 하나님의 아들이신 줄 내가 믿나이다.'" },
+        "grace": "예수님은 '마르다야 마르다야' 하고 이름을 두 번 부르셨습니다. 책망이 아니라 부름이었습니다. 그는 그를 내치지 않고 앉히셨습니다.",
+        "mirror": "우리도 봉사하다가 서운해집니다. 그리고 하나님께 '왜 나만'이라고 묻습니다. 마르다는 그 질문을 예수님 얼굴 앞에서 한 사람입니다.",
+        "ask": [
+          "내 섬김이 사랑에서 나옵니까, 인정받고 싶은 마음에서 나옵니까?",
+          "내가 지금 하나님께 하고 싶은 원망은 무엇입니까? 그것을 말해도 됩니다."
+        ],
+        "read": ["Luke 10:38-42", "John 11:17-27"]
+      },
+      "en": {
+        "name": "Martha",
+        "epithet": "She served, and resented it",
+        "hook": "She confronted Jesus: 'Dost thou not care?'",
+        "raw": [
+          { "ref": "Luke 10:40", "say": "'Lord, dost thou not care that my sister hath left me to serve alone? bid her therefore that she help me.' She tried to recruit Jesus to pressure her sister." },
+          { "ref": "John 11:21", "say": "After her brother died: 'Lord, if thou hadst been here, my brother had not died.' Faith with a complaint mixed in." }
+        ],
+        "turn": { "ref": "John 11:27", "say": "And that same Martha makes a confession equal to Peter's: 'I believe that thou art the Christ, the Son of God, which should come into the world.'" },
+        "grace": "Jesus said her name twice — 'Martha, Martha.' Not a scolding but a summons. He did not send her away; He sat her down.",
+        "mirror": "We serve and grow bitter. Then we ask God, 'why only me?' Martha asked it to His face.",
+        "ask": [
+          "Does my serving come from love, or from wanting to be seen?",
+          "What complaint do I want to bring to God? You are allowed to say it."
+        ],
+        "read": ["Luke 10:38-42", "John 11:17-27"]
+      }
+    },
+    {
+      "id": "noah",
+      "era": "primeval",
+      "ko": {
+        "name": "노아",
+        "epithet": "의인이었고, 취해서 벌거벗었던 사람",
+        "hook": "홍수에서 살아남은 사람은 포도주에서 살아남지 못했습니다.",
+        "raw": [
+          { "ref": "Genesis 6:9", "say": "'노아는 의인이요 당세에 완전한 자라.' 성경이 그를 이렇게 소개합니다." },
+          { "ref": "Genesis 9:21", "say": "'포도주를 마시고 취하여 그 장막 안에서 벌거벗은지라.' 같은 사람, 같은 책, 세 장 뒤입니다." }
+        ],
+        "turn": { "ref": "Genesis 9:20", "say": "무너진 자리가 어디였는지 보십시오. 방주에서가 아니라 자기 포도원에서였습니다. 위기가 아니라 안정 속에서 무너졌습니다." },
+        "grace": "그럼에도 하나님의 언약은 취소되지 않았습니다. 무지개는 노아의 상태에 따라 뜨고 지는 것이 아닙니다.",
+        "mirror": "우리도 큰 시험은 견디고 평범한 저녁에 무너집니다. '의인'이라는 평가는 무결점을 뜻하지 않았습니다.",
+        "ask": [
+          "나는 위기 때보다 편안할 때 더 느슨해집니까?",
+          "하나님의 약속이 내 컨디션에 달려 있다고 믿고 있지 않습니까?"
+        ],
+        "read": ["Genesis 6:9-22", "Genesis 9:1-29"]
+      },
+      "en": {
+        "name": "Noah",
+        "epithet": "A righteous man who got drunk and lay uncovered",
+        "hook": "The man who survived the flood did not survive the wine.",
+        "raw": [
+          { "ref": "Genesis 6:9", "say": "'Noah was a just man and perfect in his generations.' That is how Scripture introduces him." },
+          { "ref": "Genesis 9:21", "say": "'And he drank of the wine, and was drunken; and he was uncovered within his tent.' Same man, same book, three chapters later." }
+        ],
+        "turn": { "ref": "Genesis 9:20", "say": "Notice where he fell — not in the ark, but in his own vineyard. Not in crisis, but in stability." },
+        "grace": "The covenant was not revoked. The rainbow does not appear and disappear according to Noah's condition.",
+        "mirror": "We endure the great trial and collapse on an ordinary evening. 'Righteous' never meant flawless.",
+        "ask": [
+          "Am I looser in comfort than I am in crisis?",
+          "Do I secretly believe God's promise depends on my current condition?"
+        ],
+        "read": ["Genesis 6:9-22", "Genesis 9:1-29"]
+      }
+    }
+  ]
+}

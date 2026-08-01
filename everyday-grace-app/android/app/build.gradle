@@ -1,0 +1,108 @@
+// Release-ready Gradle config for com.newgrace.everyday.
+//
+// The shipped 1.0 APK was a DEBUG build: android:debuggable="true", signed with
+// the debug keystore, minifyEnabled off (5,304 classes / 48,644 methods). Google
+// Play rejects debuggable uploads outright. This file fixes all of that.
+
+apply plugin: 'com.android.application'
+
+android {
+    namespace 'com.newgrace.everyday'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId "com.newgrace.everyday"
+        minSdk 24
+        targetSdk 36
+
+        // Never ship versionCode 1 twice — Play rejects duplicate codes.
+        // Override from CI:  -PversionCode=$BUILD_NUMBER -PversionName=1.2.0
+        versionCode  project.hasProperty('versionCode')  ? project.versionCode.toInteger() : 1
+        versionName  project.hasProperty('versionName')  ? project.versionName            : "1.0.0"
+
+        // Only keep AppCompat's translations for languages the app actually offers.
+        resourceConfigurations += ["ko", "en", "ja", "zh", "hi", "es", "fr"]
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    signingConfigs {
+        release {
+            // Supplied by CI secrets — never commit a keystore or its passwords.
+            def storePath = System.getenv("KEYSTORE_PATH")
+            if (storePath) {
+                storeFile     file(storePath)
+                storePassword System.getenv("KEYSTORE_PASSWORD")
+                keyAlias      System.getenv("KEY_ALIAS")
+                keyPassword   System.getenv("KEY_PASSWORD")
+            }
+            enableV1Signing false   // minSdk 24 — the v1 JAR signature is dead weight
+            enableV2Signing true
+            enableV3Signing true    // required for future signing-key rotation
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled     true   // biggest single win: dex 3.22 MB -> ~0.35 MB
+            shrinkResources   true
+            debuggable        false
+            signingConfig     signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'),
+                          'proguard-rules.pro'
+        }
+        debug {
+            applicationIdSuffix ".debug"   // keeps debug builds off the release app id
+        }
+    }
+
+    bundle {
+        // App Bundle splits: a device downloads one density and one language,
+        // not all five launcher-icon densities and seven string sets.
+        language { enableSplit = true }
+        density  { enableSplit = true }
+        abi      { enableSplit = true }
+    }
+
+    packagingOptions {
+        resources {
+            excludes += [
+                'DebugProbesKt.bin',        // kotlinx-coroutines debug agent
+                'META-INF/*.version',
+                'META-INF/*.kotlin_module',
+                'META-INF/com.android.tools/**',
+                'kotlin/**',
+            ]
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    lint {
+        // Fail the build rather than shipping a debuggable or unsigned artifact again.
+        fatal 'ExpiredTargetSdkVersion'
+        warningsAsErrors false
+        abortOnError true
+    }
+}
+
+dependencies {
+    implementation project(':capacitor-android')
+    implementation project(':capacitor-local-notifications')
+
+    implementation "androidx.appcompat:appcompat:1.7.1"
+    implementation "androidx.core:core-ktx:1.17.0"
+    implementation "androidx.core:core-splashscreen:1.2.0"
+    implementation "androidx.webkit:webkit:1.14.0"
+
+    // Ships a baseline profile so the shipped profileinstaller receiver is not
+    // dead weight. Generate with the Macrobenchmark module, then commit
+    // app/src/main/baseline-prof.txt.
+    implementation "androidx.profileinstaller:profileinstaller:1.4.0"
+}
+
+// NOTE: ':capacitor-cordova-android-plugins' is intentionally absent.
+// The 1.0 APK carried 102 org.apache.cordova classes while cordova.js and
+// cordova_plugins.js were both 0 bytes. Remove the include from settings.gradle.
